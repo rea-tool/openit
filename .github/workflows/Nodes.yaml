@@ -26,7 +26,7 @@ jobs:
     - name: long & clash
       run: |
          wget "http://0.0.0.0:25500/sub?target=mixed&url=https://raw.githubusercontent.com/yu-steven/openit/main/https&emoji=true" -O long
-         wget "http://0.0.0.0:25500/sub?target=clash&url=https://raw.githubusercontent.com/yu-steven/openit/main/https&config=https://raw.githubusercontent.com/yu-steven/openit/main/sub/rule.ini&emoji=true&fdn=true&sort=true&udp=true" -O Clash.yaml
+         wget "http://0.0.0.0:25500/sub?target=clash&url=https://raw.githubusercontent.com/yu-steven/openit/main/https&config=https://raw.githubusercontent.com/rea-tool/openit/main/sub/rule.ini&emoji=true&fdn=true&sort=true&udp=true" -O Clash.yaml
     - name: 提交更改2
       run: ./.github/update-repo.sh || true
   long:
@@ -34,22 +34,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/long
+      run: curl https://purge.jsdelivr.net/gh/rea-tool/openit@main/long
   HTTPS:
     needs: my-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/https
+      run: curl https://purge.jsdelivr.net/gh/rea-tool/openit@main/https
   Clash:
     needs: my-job
     runs-on: ubuntu-latest
     steps:
     - name: CDN
-      run: curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Clash.yaml
+      run: curl https://purge.jsdelivr.net/gh/rea-tool/openit@main/Clash.yaml
   Quanx:
    needs: my-job
    runs-on: ubuntu-latest
    steps:
    - name: CDN
-     run: sleep 1 #curl https://purge.jsdelivr.net/gh/yu-steven/openit@main/Quanx.conf
+     run: sleep 1 #curl https://purge.jsdelivr.net/gh/rea-tool/openit@main/Quanx.conf
