@@ -5,24 +5,42 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: "HK1[1x][东莞电信]", server: gzcts.hkbgp.wiki, port: 31320, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "HK1[1x][泉州电信]", server: node1.9218561.xyz, port: 31320, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "HK2[1x][东莞电信]", server: gzcts.hkbgp.wiki, port: 31330, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "HK2[1x][泉州电信]", server: node1.9218561.xyz, port: 31330, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "JP1[1x][扬州移动]", server: shcc.hkbgp.wiki, port: 31320, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "SG1[1x][东莞电信]", server: gzcts.hkbgp.wiki, port: 31350, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "SG1[1x][泉州电信]", server: node1.9218561.xyz, port: 31350, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "TW1[1x][东莞电信]", server: gzcts.hkbgp.wiki, port: 31340, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "TW1[1x][泉州电信]", server: node1.9218561.xyz, port: 31340, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: 仅此一个电报群, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 哈哈, server: 130.162.146.158, port: 33258, type: vmess, uuid: 51440370-bd7c-45bb-ffd9-77540e467941, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 白嫖机场.club, server: iwq.xn--mesv7f5toqlp.club, port: 40054, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: "🇨🇳 HK1[1x][上海移动]", server: shcu.9218561.xyz, port: 31330, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 HK1[1x][广州移动]", server: szcm.9218561.xyz, port: 31320, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 HK2[1x][上海移动]", server: shcu.9218561.xyz, port: 31340, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 HK2[1x][广州移动]", server: szcm.9218561.xyz, port: 31330, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 JP1[1x][上海移动]", server: shcu.9218561.xyz, port: 31320, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 RU1[1x][广州移动]", server: szcm.9218561.xyz, port: 31350, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 SG1[1x][上海移动]", server: shcu.9218561.xyz, port: 31360, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 SG1[1x][广州移动]", server: szcm.9218561.xyz, port: 31360, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 TW1[1x][上海移动]", server: shcu.9218561.xyz, port: 31350, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 TW1[1x][广州移动]", server: szcm.9218561.xyz, port: 31340, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: "🇨🇳 US1[1x][上海移动]", server: shcu.9218561.xyz, port: 30130, type: ss, cipher: aes-256-gcm, password: 94babe8f-466b-42fe-bb88-6b6483939d15, udp: true}
+  - {name: 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 🇩🇪 免费-德国, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
-  - {name: 🇭🇰 香港02 有问题请加群, server: iwq.xn--mesv7f5toqlp.club, port: 40052, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港03 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40053, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港04 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40054, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港05 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40055, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港06 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40056, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港07 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40057, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港08 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40058, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港09 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40059, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港10 @BPJC_Group, server: iwq.xn--mesv7f5toqlp.club, port: 40060, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: iwq.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本 02 白嫖机场群:@BPJC_Group, server: tsgdhymydx.xn--mesv7f5toqlp.club, port: 11112, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: tsgdhymydx.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group, server: tshdfkcccc.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: tshdfkcccc.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group, server: xjpf1.xn--mesv7f5toqlp.club, port: 11111, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group, server: xjpf1.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: xjpf1.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 US-A, server: shcm.pdjc.cc, port: 42000, type: trojan, password: 09133b7b-2cbe-4e50-8215-1f644287d965, sni: us-a.bbbb.pw, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 03 白嫖机场群:@BPJC_Group, server: vpn.xn--mesv7f5toqlp.club, port: 11113, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国 04 白嫖机场群:@BPJC_Group, server: vpn.xn--mesv7f5toqlp.club, port: 11114, type: trojan, password: 0eda8c72-2388-4981-980a-b9be087ee8ec, sni: vpn.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 倍率2_免费-日本(中转), server: sh.moonfree.top, port: 11262, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb2.moonfree.top}}, udp: true}
+  - {name: 🇯🇵 倍率2_免费-日本2(中转), server: sh.moonfree.top, port: 11263, type: vmess, uuid: 6e9eeae6-c3d1-439e-9f7a-213fe09b2dbe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ocrb1.moonfree.top}}, udp: true}
+  - {name: 🇯🇵 日本, server: cdn2.myuuusss.com, port: 20011, type: ss, cipher: aes-128-gcm, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
+  - {name: 🇰🇷 首尔80端口, server: 130.162.146.158, port: 80, type: vmess, uuid: ea8f61f2-bd0f-425e-a5c2-4ede08add085, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇹🇷 Istanbul - Turkey | Media | 1.5x, server: azhk.102498.eu.org, port: 23941, type: vmess, uuid: 427bcba3-b7d4-3d6d-b334-8b684fa57d72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /helloworld, headers: {Host: ist-tur.jinxnet.xyz}}, udp: true}
   - {name: 🇺🇸 美国|极速|长期, server: 23.105.206.94, port: 43908, type: vmess, uuid: 34d2688a-6e4a-4bd6-d946-ec58990868c7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
@@ -32,24 +50,42 @@ proxy-groups:
       - DIRECT
       - 🔯 故障转移
       - 🔮 负载均衡
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: ♻️ 自动选择
     type: url-test
@@ -57,72 +93,126 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: 🔯 故障转移
     type: fallback
@@ -130,24 +220,42 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: 🐟 漏网之鱼
     type: select
@@ -155,24 +263,42 @@ proxy-groups:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
   - name: 🔮 负载均衡
     type: load-balance
@@ -181,24 +307,42 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - HK1[1x][东莞电信]
+      - HK1[1x][泉州电信]
+      - HK2[1x][东莞电信]
+      - HK2[1x][泉州电信]
+      - JP1[1x][扬州移动]
+      - SG1[1x][东莞电信]
+      - SG1[1x][泉州电信]
+      - TW1[1x][东莞电信]
+      - TW1[1x][泉州电信]
+      - 仅此一个电报群
+      - 哈哈
+      - 白嫖机场.club
+      - 🇨🇳 HK1[1x][上海移动]
+      - 🇨🇳 HK1[1x][广州移动]
+      - 🇨🇳 HK2[1x][上海移动]
+      - 🇨🇳 HK2[1x][广州移动]
+      - 🇨🇳 JP1[1x][上海移动]
+      - 🇨🇳 RU1[1x][广州移动]
+      - 🇨🇳 SG1[1x][上海移动]
+      - 🇨🇳 SG1[1x][广州移动]
+      - 🇨🇳 TW1[1x][上海移动]
+      - 🇨🇳 TW1[1x][广州移动]
+      - 🇨🇳 US1[1x][上海移动]
+      - 🇨🇳 倾城极速.tk-🇨🇳CN-Openit.ml
       - 🇩🇪 免费-德国
-      - 🇭🇰 香港02 有问题请加群
-      - 🇭🇰 香港03 @BPJC_Group
-      - 🇭🇰 香港04 @BPJC_Group
       - 🇭🇰 香港05 @BPJC_Group
       - 🇭🇰 香港06 @BPJC_Group
       - 🇭🇰 香港07 @BPJC_Group
       - 🇭🇰 香港08 @BPJC_Group
       - 🇭🇰 香港09 @BPJC_Group
       - 🇭🇰 香港10 @BPJC_Group
-      - 🇯🇵 日本 02 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 03 白嫖机场群:@BPJC_Group
-      - 🇰🇷 韩国 04 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 07 白嫖机场群:@BPJC_Group
-      - 🇸🇬 新加坡 10 白嫖机场群:@BPJC_Group
-      - 🇺🇸 US-A
-      - 🇺🇸 美国 03 白嫖机场群:@BPJC_Group
-      - 🇺🇸 美国 04 白嫖机场群:@BPJC_Group
+      - 🇯🇵 倍率2_免费-日本(中转)
+      - 🇯🇵 倍率2_免费-日本2(中转)
+      - 🇯🇵 日本
+      - 🇰🇷 首尔80端口
+      - 🇹🇷 Istanbul - Turkey | Media | 1.5x
       - 🇺🇸 美国|极速|长期
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
