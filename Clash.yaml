@@ -5,105 +5,33 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 官址：@freeyule, server: gz.bgp2.zf.edu.ge, port: 49400, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇦🇪 迪拜01, server: gz.bgp2.zf.edu.ge, port: 46201, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
   - {name: 🇨🇳 台湾1, server: tw.n.optage.moe, port: 44608, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "🇫🇷 [Azure]法国1", server: azhk.r.optage.moe, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇫🇷 法国1, server: fr.n.optage.moe, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "🇬🇧 [Azure]英国1", server: azhk.r.optage.moe, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇬🇧 英国1, server: uk.n.optage.moe, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港00 | 上海, server: sh.bgp.zf.edu.ge, port: 19410, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港00 | 广港, server: gz.bgp2.zf.edu.ge, port: 49410, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港01 | IEPL | 上海, server: sh.zf.edu.ge, port: 39401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港01 | IEPL | 北京, server: bj.zf.edu.ge, port: 39401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港01 | 上海, server: sh.bgp.zf.edu.ge, port: 19401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港01 | 广港, server: gz.bgp2.zf.edu.ge, port: 49401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港01 | 直连 | 2232端口, server: zl.hk.zf.edu.ge, port: 2232, type: vmess, uuid: f427d164-b023-44d7-8002-308b7018ae73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港01 | 直连 | 443端口, server: zl.hk.zf.edu.ge, port: 443, type: vmess, uuid: f427d164-b023-44d7-8002-308b7018ae73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港01 | 直连 | 8080端口, server: zl.hk.zf.edu.ge, port: 8080, type: vmess, uuid: f427d164-b023-44d7-8002-308b7018ae73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港01 | 直连 | 80端口, server: zl.hk.zf.edu.ge, port: 80, type: vmess, uuid: f427d164-b023-44d7-8002-308b7018ae73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: baidu.com}}, udp: true}
-  - {name: 🇭🇰 香港02 | IEPL | 上海, server: sh.zf.edu.ge, port: 39402, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港02 | 上海, server: sh.bgp.zf.edu.ge, port: 19402, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港03 | IEPL | 上海, server: sh.zf.edu.ge, port: 39403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港03 | IEPL | 北京, server: bj.zf.edu.ge, port: 39403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港03 | 上海, server: sh.bgp.zf.edu.ge, port: 19403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港03 | 广港, server: gz.bgp2.zf.edu.ge, port: 49403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港04 | IEPL | 上海, server: sh.zf.edu.ge, port: 39404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港04 | IEPL | 北京, server: bj.zf.edu.ge, port: 39404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港04 | 上海, server: sh.bgp.zf.edu.ge, port: 19404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港04 | 广港, server: gz.bgp2.zf.edu.ge, port: 49404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港05 | IEPL | 上海, server: sh.zf.edu.ge, port: 39405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港05 | IEPL | 北京, server: bj.zf.edu.ge, port: 39405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港05 | 上海, server: sh.bgp.zf.edu.ge, port: 19405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港05 | 广港, server: gz.bgp2.zf.edu.ge, port: 49405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港06 | IEPL | 上海, server: sh.zf.edu.ge, port: 39406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港06 | IEPL | 北京, server: bj.zf.edu.ge, port: 39406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港06 | 上海, server: sh.bgp.zf.edu.ge, port: 19406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港06 | 广港, server: gz.bgp2.zf.edu.ge, port: 49406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港07 | IEPL | 上海, server: sh.zf.edu.ge, port: 39407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港07 | IEPL | 北京, server: bj.zf.edu.ge, port: 39407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港07 | 上海, server: sh.bgp.zf.edu.ge, port: 19407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港07 | 广港, server: gz.bgp2.zf.edu.ge, port: 49407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港08 | IEPL | 上海, server: sh.zf.edu.ge, port: 39408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港08 | IEPL | 北京, server: bj.zf.edu.ge, port: 39408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港08 | 广港, server: gz.bgp2.zf.edu.ge, port: 49408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
+  - {name: "🇭🇰 香港0108[1.0x]", server: 52.130.181.44, port: 10081, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0109[1.0x]", server: 52.131.248.158, port: 10081, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0210[1.0x]", server: 52.130.181.44, port: 10082, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0211[1.0x]", server: 52.131.248.158, port: 10082, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0312[1.0x]", server: 52.130.181.44, port: 10083, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0313[1.0x]", server: 52.131.248.158, port: 10083, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0414[1.0x]", server: 52.130.181.44, port: 10084, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
+  - {name: "🇭🇰 香港0415[1.0x]", server: 52.131.248.158, port: 10084, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
   - {name: 🇭🇰 香港1•HGC, server: hk.n.optage.moe, port: 44601, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 香港4•HKT, server: hkt.n.optage.moe, port: 44609, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HGC | 上海, server: sh.bgp.zf.edu.ge, port: 19431, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港HKIX | 上海, server: sh.bgp.zf.edu.ge, port: 19412, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港HKIX | 上海2, server: sh.zf.edu.ge, port: 39412, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港HKIX | 广港, server: gz.bgp2.zf.edu.ge, port: 49412, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇭🇰 香港专线 | 全国BGP, server: uc.hk.zf.edu.ge, port: 14288, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
   - {name: 🇮🇩 印度尼西亚1, server: id.n.optage.moe, port: 44607, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 [沪日]俄罗斯2", server: shcu.alinkrelay.com, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 [沪日]法国1", server: shcu.alinkrelay.com, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: "🇯🇵 [沪日]英国1", server: shcu.alinkrelay.com, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本01, server: ss.jp.zf.edu.ge, port: 18601, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇯🇵 日本02, server: ss.jp.zf.edu.ge, port: 18603, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇯🇵 日本03, server: ss.jp.zf.edu.ge, port: 18604, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇯🇵 日本04, server: ss.jp.zf.edu.ge, port: 18605, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇯🇵 日本专线 | 全国BGP, server: uc.jp.zf.edu.ge, port: 14289, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
   - {name: "🇰🇷 [负载均衡]韩国1", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国01, server: ss.kr.zf.edu.ge, port: 18801, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇰🇷 韩国02, server: ss.kr.zf.edu.ge, port: 18802, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇰🇷 韩国03, server: ss.kr.zf.edu.ge, port: 18803, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
+  - {name: 🇵🇭 菲律宾马尼拉, server: flb.alinkrelay.com, port: 12000, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
   - {name: "🇷🇺 [Azure]俄罗斯2", server: azhk.r.optage.moe, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯, server: bj.zf.edu.ge, port: 33571, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
   - {name: 🇷🇺 俄罗斯1, server: ru.n.optage.moe, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
   - {name: 🇸🇬 新加坡, server: linsg.n.optage.moe, port: 44605, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡01 | IEPL | 上海, server: sh.zf.edu.ge, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡01 | IEPL | 北京, server: bj.zf.edu.ge, port: 38401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡01 | 上海, server: sh.bgp.zf.edu.ge, port: 18401, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡02 | IEPL | 上海, server: sh.zf.edu.ge, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡02 | IEPL | 北京, server: bj.zf.edu.ge, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡02 | 上海, server: sh.bgp.zf.edu.ge, port: 38402, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡03 | IEPL | 上海, server: sh.zf.edu.ge, port: 38403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡03 | IEPL | 北京, server: bj.zf.edu.ge, port: 38403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡03 | 上海, server: sh.bgp.zf.edu.ge, port: 18403, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡04 | IEPL | 上海, server: sh.zf.edu.ge, port: 38404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡04 | IEPL | 北京, server: bj.zf.edu.ge, port: 38404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡04 | 上海, server: sh.bgp.zf.edu.ge, port: 18404, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡05 | IEPL | 上海, server: sh.zf.edu.ge, port: 38405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡05 | IEPL | 北京, server: bj.zf.edu.ge, port: 38405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡05 | 上海, server: sh.bgp.zf.edu.ge, port: 18405, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡06 | IEPL | 上海, server: sh.zf.edu.ge, port: 38406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡06 | IEPL | 北京, server: bj.zf.edu.ge, port: 38406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡06 | 上海, server: sh.bgp.zf.edu.ge, port: 18406, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡07 | IEPL | 上海, server: sh.zf.edu.ge, port: 38407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡07 | IEPL | 北京, server: bj.zf.edu.ge, port: 38407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡07 | 上海, server: sh.bgp.zf.edu.ge, port: 18407, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡08 | IEPL | 上海, server: sh.zf.edu.ge, port: 38408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡08 | IEPL | 北京, server: bj.zf.edu.ge, port: 38408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡08 | 上海, server: sh.bgp.zf.edu.ge, port: 18408, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡09 | IEPL | 上海, server: sh.zf.edu.ge, port: 38409, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡09 | IEPL | 北京, server: bj.zf.edu.ge, port: 38409, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇸🇬 新加坡09 | 上海, server: sh.bgp.zf.edu.ge, port: 38409, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇺🇸 美国01, server: ss.us.zf.edu.ge, port: 19011, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇺🇸 美国02, server: ss.us.zf.edu.ge, port: 19002, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇺🇸 美国03, server: ss.us.zf.edu.ge, port: 19003, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇺🇸 美国04, server: ss.us.zf.edu.ge, port: 19004, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
-  - {name: 🇺🇸 美国05, server: ss.us.zf.edu.ge, port: 19006, type: ss, cipher: chacha20-ietf-poly1305, password: f427d164-b023-44d7-8002-308b7018ae73, udp: true}
+  - {name: "🇸🇬 新加坡0719[1.0x]", server: 52.131.248.158, port: 10087, type: ss, cipher: aes-256-gcm, password: 14001041-09e3-4d03-a960-5ac6428d3a06, udp: true}
   - {name: 🇺🇸 美国1, server: usgt.n.optage.moe, port: 44610, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国2, server: us.n.optage.moe, port: 44611, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: us.n.optage.moe, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -112,628 +40,196 @@ proxy-groups:
       - DIRECT
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -741,105 +237,33 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 官址：@freeyule
-      - 🇦🇪 迪拜01
       - 🇨🇳 台湾1
       - 🇫🇷 [Azure]法国1
       - 🇫🇷 法国1
       - 🇬🇧 [Azure]英国1
       - 🇬🇧 英国1
-      - 🇭🇰 香港00 | 上海
-      - 🇭🇰 香港00 | 广港
-      - 🇭🇰 香港01 | IEPL | 上海
-      - 🇭🇰 香港01 | IEPL | 北京
-      - 🇭🇰 香港01 | 上海
-      - 🇭🇰 香港01 | 广港
-      - 🇭🇰 香港01 | 直连 | 2232端口
-      - 🇭🇰 香港01 | 直连 | 443端口
-      - 🇭🇰 香港01 | 直连 | 8080端口
-      - 🇭🇰 香港01 | 直连 | 80端口
-      - 🇭🇰 香港02 | IEPL | 上海
-      - 🇭🇰 香港02 | 上海
-      - 🇭🇰 香港03 | IEPL | 上海
-      - 🇭🇰 香港03 | IEPL | 北京
-      - 🇭🇰 香港03 | 上海
-      - 🇭🇰 香港03 | 广港
-      - 🇭🇰 香港04 | IEPL | 上海
-      - 🇭🇰 香港04 | IEPL | 北京
-      - 🇭🇰 香港04 | 上海
-      - 🇭🇰 香港04 | 广港
-      - 🇭🇰 香港05 | IEPL | 上海
-      - 🇭🇰 香港05 | IEPL | 北京
-      - 🇭🇰 香港05 | 上海
-      - 🇭🇰 香港05 | 广港
-      - 🇭🇰 香港06 | IEPL | 上海
-      - 🇭🇰 香港06 | IEPL | 北京
-      - 🇭🇰 香港06 | 上海
-      - 🇭🇰 香港06 | 广港
-      - 🇭🇰 香港07 | IEPL | 上海
-      - 🇭🇰 香港07 | IEPL | 北京
-      - 🇭🇰 香港07 | 上海
-      - 🇭🇰 香港07 | 广港
-      - 🇭🇰 香港08 | IEPL | 上海
-      - 🇭🇰 香港08 | IEPL | 北京
-      - 🇭🇰 香港08 | 广港
+      - 🇭🇰 香港0108[1.0x]
+      - 🇭🇰 香港0109[1.0x]
+      - 🇭🇰 香港0210[1.0x]
+      - 🇭🇰 香港0211[1.0x]
+      - 🇭🇰 香港0312[1.0x]
+      - 🇭🇰 香港0313[1.0x]
+      - 🇭🇰 香港0414[1.0x]
+      - 🇭🇰 香港0415[1.0x]
       - 🇭🇰 香港1•HGC
       - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港HGC | 上海
-      - 🇭🇰 香港HKIX | 上海
-      - 🇭🇰 香港HKIX | 上海2
-      - 🇭🇰 香港HKIX | 广港
-      - 🇭🇰 香港专线 | 全国BGP
       - 🇮🇩 印度尼西亚1
       - 🇯🇵 [沪日]俄罗斯2
       - 🇯🇵 [沪日]法国1
       - 🇯🇵 [沪日]英国1
-      - 🇯🇵 日本01
-      - 🇯🇵 日本02
-      - 🇯🇵 日本03
-      - 🇯🇵 日本04
-      - 🇯🇵 日本专线 | 全国BGP
       - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 韩国01
-      - 🇰🇷 韩国02
-      - 🇰🇷 韩国03
+      - 🇵🇭 菲律宾马尼拉
       - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 俄罗斯
       - 🇷🇺 俄罗斯1
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡01 | IEPL | 上海
-      - 🇸🇬 新加坡01 | IEPL | 北京
-      - 🇸🇬 新加坡01 | 上海
-      - 🇸🇬 新加坡02 | IEPL | 上海
-      - 🇸🇬 新加坡02 | IEPL | 北京
-      - 🇸🇬 新加坡02 | 上海
-      - 🇸🇬 新加坡03 | IEPL | 上海
-      - 🇸🇬 新加坡03 | IEPL | 北京
-      - 🇸🇬 新加坡03 | 上海
-      - 🇸🇬 新加坡04 | IEPL | 上海
-      - 🇸🇬 新加坡04 | IEPL | 北京
-      - 🇸🇬 新加坡04 | 上海
-      - 🇸🇬 新加坡05 | IEPL | 上海
-      - 🇸🇬 新加坡05 | IEPL | 北京
-      - 🇸🇬 新加坡05 | 上海
-      - 🇸🇬 新加坡06 | IEPL | 上海
-      - 🇸🇬 新加坡06 | IEPL | 北京
-      - 🇸🇬 新加坡06 | 上海
-      - 🇸🇬 新加坡07 | IEPL | 上海
-      - 🇸🇬 新加坡07 | IEPL | 北京
-      - 🇸🇬 新加坡07 | 上海
-      - 🇸🇬 新加坡08 | IEPL | 上海
-      - 🇸🇬 新加坡08 | IEPL | 北京
-      - 🇸🇬 新加坡08 | 上海
-      - 🇸🇬 新加坡09 | IEPL | 上海
-      - 🇸🇬 新加坡09 | IEPL | 北京
-      - 🇸🇬 新加坡09 | 上海
-      - 🇺🇸 美国01
-      - 🇺🇸 美国02
-      - 🇺🇸 美国03
-      - 🇺🇸 美国04
-      - 🇺🇸 美国05
+      - 🇸🇬 新加坡0719[1.0x]
       - 🇺🇸 美国1
+      - 🇺🇸 美国2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
