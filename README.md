@@ -1,29 +1,3 @@
-<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh"><img align="right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
-<h1 align="lefts">
-<a rel="openit" href="https://openit.ml">
-<img alt="Logo" height="73px" style="border-width:0" src="https://openit.ml/images/logo-pro.png" />
-</h1>
-
-<div align="center">
-
- [![name-license][svg-license]][git-license]
- [![name-telegram][svg-telegram]][telegram]
- [![name-nodes][svg-nodes]][git-nodes]
- [![name-clash][svg-clash]][git-clash]
- ![刷新一下][svg-counter]
-<!--此处隔开，不然无法正确编译；这是注释文本，不会显示-->
- [git-license]: ./LICENSE
- [git-nodes]: ./url
- [git-clash]: ./Clash.yaml
- [telegram]: https://t.me/ShareCentrePro
- [svg-license]: https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg?style=plastic
- [svg-nodes]: https://github.com/yu-steven/openit/actions/workflows/Nodes.yaml/badge.svg?branch=main
- [svg-clash]: https://github.com/yu-steven/openit/actions/workflows/Clash.yaml/badge.svg?branch=main&event=workflow_dispatch
- [svg-telegram]: https://img.shields.io/badge/Telegram-@ShareCentrePro-blue.svg?style=plastic
- [svg-counter]: https://github-watch.vercel.app/api/counter
-
-</div>
-
 **Base64**
 ```https://openit.ml/long```
 **通用**
