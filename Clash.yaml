@@ -5,135 +5,84 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇦🇷 阿根廷T-Wireless 01, server: fgnzd5w.qaglw3.xyz, port: 10918, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇦🇺 澳洲Presence 01, server: fgnzd5w.qaglw3.xyz, port: 10906, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇧🇷 巴西Lets 01, server: fgnzd5w.qaglw3.xyz, port: 1006, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 443丨华南高速丨100Mbps丨2, server: gx2.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 443丨华南高速丨100Mbps丨3, server: gx3.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 443丨长沙丨1G, server: 113.240.72.198, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 80丨华南高速丨100Mbps, server: gx.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 80丨华南高速丨100Mbps丨2, server: gx2.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 80丨华南高速丨100Mbp丨3, server: gx3.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 80丨电信停机卡丨华南, server: gx.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 80丨长沙丨1G, server: 113.240.72.198, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: Alien, server: v2fly.sab.quest, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Alien 2, server: 429hk429.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 游戏节点只可以用于游戏，不要刷视频, server: hk.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 禁止在其他群里发本机场测速, server: hk.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇨🇦 80丨加拿大多伦多丨, server: can6.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇨🇦 80丨加拿大安大略丨, server: can.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇨🇦 ss丨加拿大安大略丨, server: can.mayiyun.shop, port: 10015, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps, server: js2.mayiyun.shop, port: 10019, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇨🇦 加拿大  34, server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1c08f35bdafe74a6a386907aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 330tw.fans8.xyz}}, udp: true}
   - {name: 🇨🇦 加拿大++11, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 21882ea6-235b-4463-93d4-55c7d378857d, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大Limewave 01, server: fgnzd5w.qaglw3.xyz, port: 1007, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇦 加拿大多伦多, server: tor.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: tor.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 [Azure]台湾1", server: azhk.r.optage.moe, port: 44608, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 [沪日]台湾1", server: shcu.alinkrelay.com, port: 44608, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 [隧道]-SS台湾01-[x1x]", server: bgp.xraysrv.xyz, port: 16304, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇨🇳 [隧道]-SS台湾02-[x1x]", server: bgp.xraysrv.xyz, port: 16122, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: 🇨🇳 台湾1, server: tw.n.optage.moe, port: 44608, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet 01, server: p3kbve.qaglw3.xyz, port: 10933, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet 02, server: p3kbve.qaglw3.xyz, port: 10938, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Hinet 04, server: p3kbve.qaglw3.xyz, port: 10944, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Scloud 01, server: fgnzd5w.qaglw3.xyz, port: 10951, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾Scloud 02, server: fgnzd5w.qaglw3.xyz, port: 1003, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 德国Oracle 01, server: fgnzd5w.qaglw3.xyz, port: 2002, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇪🇪 爱沙尼亚CSpace 01, server: fgnzd5w.qaglw3.xyz, port: 10922, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇫🇷 [Azure]法国1", server: azhk.r.optage.moe, port: 44612, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国1, server: fr.n.optage.moe, port: 44612, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国FEELB 01, server: fgnzd5w.qaglw3.xyz, port: 10910, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 443丨江苏丨300M, server: js2.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 8080丨隧道丨台湾100Mbps, server: gx3.mayiyun.shop, port: 8080, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 80丨上海丨8m丨游戏节点, server: sh.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 80丨北京丨8m丨游戏节点, server: bj.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 80丨江苏丨300M, server: js2.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇨🇳 ss丨隧道丨台湾100Mbps, server: gx3.mayiyun.shop, port: 10015, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇩🇪 80丨德国1Gbps丨1, server: ger3.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇩🇪 80丨德国丨1Gbps丨2, server: ger4.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇩🇪 80丨德国丨50Mbps丨1, server: ger1.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇩🇪 ss丨德国100Mbps丨, server: ger3.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇩🇪 ss丨隧道丨德国100Mbps, server: gx3.mayiyun.shop, port: 10018, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇫🇷 法国OVH数据中心 26, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/120208301422, headers: {Host: 54.37.192.112}}, udp: true}
-  - {name: "🇬🇧 [Azure]英国1", server: azhk.r.optage.moe, port: 44613, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国1, server: uk.n.optage.moe, port: 44613, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国Kamatera 01, server: fgnzd5w.qaglw3.xyz, port: 10978, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Azure]香港3•HGC", server: azhk.r.optage.moe, port: 44601, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Azure]香港5•HKT", server: azhk.r.optage.moe, port: 44609, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [沪日]香港3•HGC", server: shcu.alinkrelay.com, port: 44601, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [沪日]香港5•HKT", server: shcu.alinkrelay.com, port: 44609, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [负载均衡]香港•Azure", server: azhk.n.optage.moe, port: 44602, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港01-[x1x]", server: bgp.xraysrv.xyz, port: 16101, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港02-[x1x]", server: bgp.xraysrv.xyz, port: 16301, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港03-[x1x]", server: bgp.xraysrv.xyz, port: 16117, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港04-[x1x]", server: bgp.xraysrv.xyz, port: 16112, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港05-[x1x]", server: bgp.xraysrv.xyz, port: 16113, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港08-[x1x]", server: bgp.xraysrv.xyz, port: 16118, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇭🇰 [隧道]-SS-香港09-[x1x]", server: bgp.xraysrv.xyz, port: 16119, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: 🇭🇰 香港1•HGC, server: hk.n.optage.moe, port: 44601, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4•HKT, server: hkt.n.optage.moe, port: 44609, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港Akari 01, server: p3kbve.qaglw3.xyz, port: 10928, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HKT 02, server: p3kbve.qaglw3.xyz, port: 10920, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港HKT 03, server: p3kbve.qaglw3.xyz, port: 10909, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港Lshiy 01, server: p3kbve.qaglw3.xyz, port: 10924, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港Lshiy 02, server: p3kbve.qaglw3.xyz, port: 10911, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇮🇩 [Azure]印度尼西亚", server: azhk.r.optage.moe, port: 44607, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 印尼APIK 01, server: p3kbve.qaglw3.xyz, port: 10982, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 印度尼西亚1, server: id.n.optage.moe, port: 44607, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇱 以色列Omc 01, server: fgnzd5w.qaglw3.xyz, port: 10955, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度Linode 01, server: fgnzd5w.qaglw3.xyz, port: 10899, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇳 印度班加罗尔, server: blr.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: blr.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 443丨香港1Gbps, server: hk.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 8080丨隧道丨香港100Mbps, server: gx2.mayiyun.shop, port: 8080, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 8080丨隧道丨香港100Mbps丨2, server: gx.mayiyun.shop, port: 8080, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: down.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 80丨电信停机卡丨香港, server: azhk.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: a.189.cn}}, udp: true}
+  - {name: 🇭🇰 80丨香港1Gbps, server: hk.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ll, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇭🇰 ss丨隧道丨香港100Mbps, server: gx3.mayiyun.shop, port: 10016, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇭🇰 ss丨香港1Gbps, server: hk.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇮🇷 伊朗  42, server: srvf.myandroidplus1.ir, port: 80, type: vmess, uuid: e7cf2f58-85b3-d3db-a75c-55df4a9ee83a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /apiws, headers: {Host: srvf.myandroidplus1.ir}}, udp: true}
-  - {name: 🇮🇹 意大利Seflow 01, server: fgnzd5w.qaglw3.xyz, port: 20688, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]俄罗斯2", server: shcu.alinkrelay.com, port: 44606, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]印度尼西亚", server: shcu.alinkrelay.com, port: 44607, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]法国1", server: shcu.alinkrelay.com, port: 44612, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]美国1", server: shcu.alinkrelay.com, port: 44610, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]美国2", server: shcu.alinkrelay.com, port: 44611, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: us.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]英国1", server: shcu.alinkrelay.com, port: 44613, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [隧道]-SS-日本01-[x2x]", server: bgp.xraysrv.xyz, port: 16107, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇯🇵 [隧道]-SS-日本02-[x2x]", server: bgp.xraysrv.xyz, port: 16302, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇯🇵 [隧道]-SS日本03-[x1x]", server: bgp.xraysrv.xyz, port: 16114, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇯🇵 [隧道]-SS日本04-[x1x]", server: bgp.xraysrv.xyz, port: 16115, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: 🇯🇵 尼日尼亚, server: nrny.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: nrny.alinkrelay.com, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 443丨日本1Gbps, server: jp.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 443丨日本丨1Gbps丨1, server: jp5.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 443丨日本丨50Mbps丨2, server: jp4.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 80丨日本1Gbps, server: jp.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 80丨日本丨1Gbps丨1, server: jp5.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 80丨日本丨50Mbps丨2, server: jp4.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇯🇵 ss丨日本1Gbps丨, server: jp.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇯🇵 ss丨日本1Gbps丨2, server: jp4.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇯🇵 ss丨日本500Mbps丨, server: jp5.mayiyun.shop, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇯🇵 日本++2, server: hk6702.fans8.xyz, port: 443, type: trojan, password: 21882ea6-235b-4463-93d4-55c7d378857d, sni: hk6702.fans8.xyz, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本++3, server: hk64.fans8.xyz, port: 443, type: trojan, password: 21882ea6-235b-4463-93d4-55c7d378857d, sni: hk64.fans8.xyz, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本Owl 01, server: p3kbve.qaglw3.xyz, port: 10976, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 日本Sonet 01, server: fgnzd5w.qaglw3.xyz, port: 10987, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本东京Amazon数据中心+48, server: gy02.20220512.cyou, port: 37762, type: trojan, password: 207eed47-ffdd-4bd4-91c1-719ac25c9cee, sni: gy02.20220512.cyou, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 日本东京Linode数据中心 8, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vjp3.0bad.com}}, udp: true}
   - {name: 🇯🇵 日本东京Oracle云计算数据中心 16, server: mixv4-26.194610.xyz, port: 4440, type: vmess, uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /a185d5dc-c726-466c-98f2-ba494e63695f, headers: {Host: mixv4-26.194610.xyz}}, udp: true}
-  - {name: 🇰🇭 柬埔寨Metfone 01, server: p3kbve.qaglw3.xyz, port: 10903, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 [负载均衡]韩国1", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 [隧道]-SS韩国01-[x1x]", server: bgp.xraysrv.xyz, port: 16116, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇰🇷 [隧道]-SS韩国02-[x1x]", server: bgp.xraysrv.xyz, port: 16109, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇰🇷 [隧道]-SS韩国03-[x1x]", server: bgp.xraysrv.xyz, port: 16110, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇰🇷 [隧道]-SS韩国04-[x1x]", server: bgp.xraysrv.xyz, port: 16120, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: 🇰🇷 韩国Oracle 01, server: fgnzd5w.qaglw3.xyz, port: 10909, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 韩国Oracle 02, server: fgnzd5w.qaglw3.xyz, port: 10890, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 443丨韩国丨500Mbps丨2, server: kr1.mayiyun.shop, port: 443, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇰🇷 80丨韩国1Gbps, server: kr.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 80丨韩国丨500Mbps丨1, server: kr5.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇰🇷 80丨韩国丨500Mbps丨2, server: kr1.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: shoutingtoutiao3.10010.com}}, udp: true}
+  - {name: 🇰🇷 ss丨韩国500Mbps丨, server: kr1.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇰🇷 韩国首尔Amazon数据中心 12, server: jisu65.yaya89.xyz, port: 50065, type: vmess, uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hls/cctv5phd.m3u8, headers: {Host: jisu65.yaya89.xyz}}, udp: true}
-  - {name: 🇳🇱 荷兰Misaka 01, server: fgnzd5w.qaglw3.xyz, port: 10979, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾Eastern 01, server: fgnzd5w.qaglw3.xyz, port: 10986, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇰 巴基斯坦Multinet 01, server: fgnzd5w.qaglw3.xyz, port: 20686, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇷🇺 [Azure]俄罗斯2", server: azhk.r.optage.moe, port: 44606, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇷🇺 [隧道]-SS-俄罗斯01-[x1x]", server: bgp.xraysrv.xyz, port: 16103, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: 🇷🇺 俄罗斯1, server: ru.n.optage.moe, port: 44606, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯Melbikomas 01, server: fgnzd5w.qaglw3.xyz, port: 10967, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [Azure]新加坡", server: azhk.r.optage.moe, port: 44605, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [沪日]新加坡", server: shcu.alinkrelay.com, port: 44605, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [隧道]-SS-新加坡01-[x1x][M]", server: bgp.xraysrv.xyz, port: 16100, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇸🇬 [隧道]-SS-新加坡02-[x1x][M]", server: bgp.xraysrv.xyz, port: 16300, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇸🇬 [隧道]-SS-新加坡03-[x1x][M]", server: bgp.xraysrv.xyz, port: 16102, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇸🇬 [隧道]-SS-新加坡04-[x1x][M]", server: bgp.xraysrv.xyz, port: 16111, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇸🇬 [隧道]-SS-新加坡05-[x1x][M]", server: bgp.xraysrv.xyz, port: 16121, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
+  - {name: 🇸🇬 ss丨隧道丨新加坡100Mbps, server: gx3.mayiyun.shop, port: 10014, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇸🇬 北京市新国信通信有限公司 4, server: gycd1.csccdd.xyz, port: 52340, type: vmess, uuid: 1dc13504-e4ba-3c49-8e0b-6a3eb4e40335, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gycd1.csccdd.xyz}}, udp: true}
-  - {name: 🇸🇬 新加坡, server: linsg.n.optage.moe, port: 44605, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡2, server: x.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: x.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡3, server: x2.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: x2.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城DigitalOcean 03, server: p3kbve.qaglw3.xyz, port: 20914, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城DigitalOcean 04, server: p3kbve.qaglw3.xyz, port: 10974, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城Landups 01, server: p3kbve.qaglw3.xyz, port: 10957, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城Landups 02, server: p3kbve.qaglw3.xyz, port: 10954, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城Oracle 01, server: p3kbve.qaglw3.xyz, port: 10934, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 狮城Starhub 01, server: p3kbve.qaglw3.xyz, port: 10910, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国CAT 01, server: p3kbve.qaglw3.xyz, port: 1009, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇭 泰国曼谷, server: tg.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: tg.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇹🇷 土耳其Bursabil 01, server: fgnzd5w.qaglw3.xyz, port: 10985, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: "🇺🇸 [隧道]-SS-美国01-[x1x]", server: bgp.xraysrv.xyz, port: 16098, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇺🇸 [隧道]-SS-美国02-[x1x]", server: bgp.xraysrv.xyz, port: 16303, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
-  - {name: "🇺🇸 [隧道]-SS-美国03-[x1x]", server: bgp.xraysrv.xyz, port: 16106, type: ss, cipher: aes-128-gcm, password: 2ef33221-7032-4fbd-8470-050c1d2ca595, udp: true}
+  - {name: 🇺🇸 80丨美国圣何塞丨, server: usa1.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇺🇸 80丨美国洛杉矶丨, server: usa.mayiyun.shop, port: 80, type: vmess, uuid: 94ff1ce8-30d2-4b8f-8973-e7046364f260, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: open.dingtalk.com}}, udp: true}
+  - {name: 🇺🇸 ss丨美国圣何塞丨, server: usa1.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇺🇸 ss丨美国洛杉矶丨, server: usa.mayiyun.shop, port: 20012, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇺🇸 ss丨隧道丨美国圣何塞300Mbps, server: js2.mayiyun.shop, port: 10017, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
+  - {name: 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps, server: js2.mayiyun.shop, port: 10020, type: ss, cipher: aes-256-gcm, password: 94ff1ce8-30d2-4b8f-8973-e7046364f260, udp: true}
   - {name: 🇺🇸 美国  31, server: v3.ssrsub.com, port: 18443, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
   - {name: 🇺🇸 美国  32, server: v3.ssrsub.com, port: 18443, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: v3.ssrsub.com}}, udp: true}
-  - {name: 🇺🇸 美国1, server: usgt.n.optage.moe, port: 44610, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国2, server: us.n.optage.moe, port: 44611, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: us.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国Cera 01, server: fgnzd5w.qaglw3.xyz, port: 10952, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国Cera 02, server: fgnzd5w.qaglw3.xyz, port: 10943, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国1, server: v04.ssrsub.com, port: 153, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}, udp: true}
+  - {name: 🇺🇸 美国2, server: v05.ssrsub.com, port: 153, type: vmess, uuid: 2256dea6-b952-43f7-b8a2-983f766d5836, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}, udp: true}
+  - {name: 🇺🇸 美国3, server: v04.ssrsub.com, port: 153, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}, udp: true}
+  - {name: 🇺🇸 美国4, server: v05.ssrsub.com, port: 153, type: vmess, uuid: f736834f-1fc8-4738-9884-9afe0eb0d818, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: d76bb35696.laowanxiang.com}}, udp: true}
   - {name: 🇺🇸 美国CloudFlare节点 17, server: app.ssfree.ru, port: 443, type: vmess, uuid: b789866a-ea68-11ec-96f8-000017022008, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /getweather, headers: {Host: app.ssfree.ru}}, udp: true}
-  - {name: 🇺🇸 美国Misaka 01, server: fgnzd5w.qaglw3.xyz, port: 10966, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国Misaka 02, server: fgnzd5w.qaglw3.xyz, port: 1004, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国Nato 02, server: fgnzd5w.qaglw3.xyz, port: 10953, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国Wowrack 01, server: fgnzd5w.qaglw3.xyz, port: 10925, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38, server: vus2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /chat, headers: {Host: vus2.0bad.com}}, udp: true}
   - {name: 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6, server: 51.81.223.0, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国旧金山, server: jjs.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: jjs.alinkrelay.com, skip-cert-verify: true, udp: true}
   - {name: 🇻🇳 越南  45, server: vnidc1.project4gyuna.pw, port: 80, type: vmess, uuid: d1d4ad51-ad11-4648-ab28-08bc20db295a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /project4gyuna.pw, headers: {Host: vnidc1.project4gyuna.pw}}, udp: true}
-  - {name: 🇻🇳 越南FPT 01, server: p3kbve.qaglw3.xyz, port: 10950, type: trojan, password: 3bd0eda5-5573-455d-bff2-1615437664b2, sni: 216-244-81-242.nhost.00cdn.com, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 越南胡志明, server: yn.alinkrelay.com, port: 12000, type: trojan, password: 8beaa448-39ed-43cd-9bb6-73ecb8b3d64d, sni: yn.alinkrelay.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -142,808 +91,502 @@ proxy-groups:
       - DIRECT
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -951,135 +594,84 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇦🇷 阿根廷T-Wireless 01
-      - 🇦🇺 澳洲Presence 01
-      - 🇧🇷 巴西Lets 01
+      - 443丨华南高速丨100Mbps丨2
+      - 443丨华南高速丨100Mbps丨3
+      - 443丨长沙丨1G
+      - 80丨华南高速丨100Mbps
+      - 80丨华南高速丨100Mbps丨2
+      - 80丨华南高速丨100Mbp丨3
+      - 80丨电信停机卡丨华南
+      - 80丨长沙丨1G
+      - Alien
+      - Alien 2
+      - 游戏节点只可以用于游戏，不要刷视频
+      - 禁止在其他群里发本机场测速
+      - 🇨🇦 80丨加拿大多伦多丨
+      - 🇨🇦 80丨加拿大安大略丨
+      - 🇨🇦 ss丨加拿大安大略丨
+      - 🇨🇦 ss丨隧道丨加拿大多伦多300Mbps
       - 🇨🇦 加拿大  34
       - 🇨🇦 加拿大++11
-      - 🇨🇦 加拿大Limewave 01
-      - 🇨🇦 加拿大多伦多
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
-      - 🇨🇳 [隧道]-SS台湾01-[x1x]
-      - 🇨🇳 [隧道]-SS台湾02-[x1x]
-      - 🇨🇳 台湾1
-      - 🇨🇳 台湾Hinet 01
-      - 🇨🇳 台湾Hinet 02
-      - 🇨🇳 台湾Hinet 04
-      - 🇨🇳 台湾Scloud 01
-      - 🇨🇳 台湾Scloud 02
-      - 🇩🇪 德国Oracle 01
-      - 🇪🇪 爱沙尼亚CSpace 01
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 法国1
-      - 🇫🇷 法国FEELB 01
+      - 🇨🇳 443丨江苏丨300M
+      - 🇨🇳 8080丨隧道丨台湾100Mbps
+      - 🇨🇳 80丨上海丨8m丨游戏节点
+      - 🇨🇳 80丨北京丨8m丨游戏节点
+      - 🇨🇳 80丨江苏丨300M
+      - 🇨🇳 ss丨隧道丨台湾100Mbps
+      - 🇩🇪 80丨德国1Gbps丨1
+      - 🇩🇪 80丨德国丨1Gbps丨2
+      - 🇩🇪 80丨德国丨50Mbps丨1
+      - 🇩🇪 ss丨德国100Mbps丨
+      - 🇩🇪 ss丨隧道丨德国100Mbps
       - 🇫🇷 法国OVH数据中心 26
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 英国1
-      - 🇬🇧 英国Kamatera 01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 [隧道]-SS-香港01-[x1x]
-      - 🇭🇰 [隧道]-SS-香港02-[x1x]
-      - 🇭🇰 [隧道]-SS-香港03-[x1x]
-      - 🇭🇰 [隧道]-SS-香港04-[x1x]
-      - 🇭🇰 [隧道]-SS-香港05-[x1x]
-      - 🇭🇰 [隧道]-SS-香港08-[x1x]
-      - 🇭🇰 [隧道]-SS-香港09-[x1x]
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港Akari 01
-      - 🇭🇰 香港HKT 02
-      - 🇭🇰 香港HKT 03
-      - 🇭🇰 香港Lshiy 01
-      - 🇭🇰 香港Lshiy 02
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印尼APIK 01
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇱 以色列Omc 01
-      - 🇮🇳 印度Linode 01
-      - 🇮🇳 印度班加罗尔
+      - 🇭🇰 443丨香港1Gbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps
+      - 🇭🇰 8080丨隧道丨香港100Mbps丨2
+      - 🇭🇰 80丨电信停机卡丨香港
+      - 🇭🇰 80丨香港1Gbps
+      - 🇭🇰 ss丨隧道丨香港100Mbps
+      - 🇭🇰 ss丨香港1Gbps
       - 🇮🇷 伊朗  42
-      - 🇮🇹 意大利Seflow 01
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [隧道]-SS-日本01-[x2x]
-      - 🇯🇵 [隧道]-SS-日本02-[x2x]
-      - 🇯🇵 [隧道]-SS日本03-[x1x]
-      - 🇯🇵 [隧道]-SS日本04-[x1x]
-      - 🇯🇵 尼日尼亚
+      - 🇯🇵 443丨日本1Gbps
+      - 🇯🇵 443丨日本丨1Gbps丨1
+      - 🇯🇵 443丨日本丨50Mbps丨2
+      - 🇯🇵 80丨日本1Gbps
+      - 🇯🇵 80丨日本丨1Gbps丨1
+      - 🇯🇵 80丨日本丨50Mbps丨2
+      - 🇯🇵 ss丨日本1Gbps丨
+      - 🇯🇵 ss丨日本1Gbps丨2
+      - 🇯🇵 ss丨日本500Mbps丨
       - 🇯🇵 日本++2
       - 🇯🇵 日本++3
-      - 🇯🇵 日本Owl 01
-      - 🇯🇵 日本Sonet 01
       - 🇯🇵 日本东京Amazon数据中心+48
       - 🇯🇵 日本东京Linode数据中心 8
       - 🇯🇵 日本东京Oracle云计算数据中心 16
-      - 🇰🇭 柬埔寨Metfone 01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [隧道]-SS韩国01-[x1x]
-      - 🇰🇷 [隧道]-SS韩国02-[x1x]
-      - 🇰🇷 [隧道]-SS韩国03-[x1x]
-      - 🇰🇷 [隧道]-SS韩国04-[x1x]
-      - 🇰🇷 韩国Oracle 01
-      - 🇰🇷 韩国Oracle 02
+      - 🇰🇷 443丨韩国丨500Mbps丨2
+      - 🇰🇷 80丨韩国1Gbps
+      - 🇰🇷 80丨韩国丨500Mbps丨1
+      - 🇰🇷 80丨韩国丨500Mbps丨2
+      - 🇰🇷 ss丨韩国500Mbps丨
       - 🇰🇷 韩国首尔Amazon数据中心 12
-      - 🇳🇱 荷兰Misaka 01
-      - 🇵🇭 菲律宾Eastern 01
-      - 🇵🇰 巴基斯坦Multinet 01
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [隧道]-SS-俄罗斯01-[x1x]
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯Melbikomas 01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
-      - 🇸🇬 [隧道]-SS-新加坡01-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡02-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡03-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡04-[x1x][M]
-      - 🇸🇬 [隧道]-SS-新加坡05-[x1x][M]
+      - 🇸🇬 ss丨隧道丨新加坡100Mbps
       - 🇸🇬 北京市新国信通信有限公司 4
-      - 🇸🇬 新加坡
-      - 🇸🇬 新加坡2
-      - 🇸🇬 新加坡3
-      - 🇸🇬 狮城DigitalOcean 03
-      - 🇸🇬 狮城DigitalOcean 04
-      - 🇸🇬 狮城Landups 01
-      - 🇸🇬 狮城Landups 02
-      - 🇸🇬 狮城Oracle 01
-      - 🇸🇬 狮城Starhub 01
-      - 🇹🇭 泰国CAT 01
-      - 🇹🇭 泰国曼谷
-      - 🇹🇷 土耳其Bursabil 01
-      - 🇺🇸 [隧道]-SS-美国01-[x1x]
-      - 🇺🇸 [隧道]-SS-美国02-[x1x]
-      - 🇺🇸 [隧道]-SS-美国03-[x1x]
+      - 🇺🇸 80丨美国圣何塞丨
+      - 🇺🇸 80丨美国洛杉矶丨
+      - 🇺🇸 ss丨美国圣何塞丨
+      - 🇺🇸 ss丨美国洛杉矶丨
+      - 🇺🇸 ss丨隧道丨美国圣何塞300Mbps
+      - 🇺🇸 ss丨隧道丨美国洛杉矶300Mbps
       - 🇺🇸 美国  31
       - 🇺🇸 美国  32
       - 🇺🇸 美国1
       - 🇺🇸 美国2
-      - 🇺🇸 美国Cera 01
-      - 🇺🇸 美国Cera 02
+      - 🇺🇸 美国3
+      - 🇺🇸 美国4
       - 🇺🇸 美国CloudFlare节点 17
-      - 🇺🇸 美国Misaka 01
-      - 🇺🇸 美国Misaka 02
-      - 🇺🇸 美国Nato 02
-      - 🇺🇸 美国Wowrack 01
       - 🇺🇸 美国加利福尼亚州费利蒙Linode数据中心 38
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 5
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 6
       - 🇺🇸 美国弗吉尼亚州文特山农场OVH数据中心 7
-      - 🇺🇸 美国旧金山
       - 🇻🇳 越南  45
-      - 🇻🇳 越南FPT 01
-      - 🇻🇳 越南胡志明
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
