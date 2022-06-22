@@ -5,98 +5,63 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 加TG群:@FreeYule, server: hk.n.optage.moe, port: 44601, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, skip-cert-verify: true, udp: true}
-  - {name: 加TG群:@FreeYule阅, server: tw.n.optage.moe, port: 44608, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 V2|台湾-长沙|原生中继|01, server: lt.feethree.top, port: 11357, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇨🇳 V3|台湾-广州|原生中继|01, server: gy3.anoob.icu, port: 24988, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: 🇨🇳 V4|台湾|隧道|中继|01, server: gy.feethree.top, port: 53469, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇨🇳 V4|台湾|隧道|原生中继|02, server: lt.feethree.top, port: 49920, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: "🇨🇳 [Azure]台湾1", server: azhk.r.optage.moe, port: 44608, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇨🇳 [沪日]台湾1", server: shcu.alinkrelay.com, port: 44608, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾1, server: tw.n.optage.moe, port: 44608, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 台湾1 2, server: tw.n.optage.moe, port: 44608, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: tw.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇫🇷 [Azure]法国1", server: azhk.r.optage.moe, port: 44612, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇫🇷 [Azure]法国1 2", server: azhk.r.optage.moe, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国1, server: fr.n.optage.moe, port: 44612, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇫🇷 法国1 2, server: fr.n.optage.moe, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 V4|英国|隧道|中继|01, server: gy.feethree.top, port: 53044, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: "🇬🇧 [Azure]英国1", server: azhk.r.optage.moe, port: 44613, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇬🇧 [Azure]英国1 2", server: azhk.r.optage.moe, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国1, server: uk.n.optage.moe, port: 44613, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇬🇧 英国1 2, server: uk.n.optage.moe, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: "", server: hk.922833.xyz, port: 443, type: vmess, uuid: 95b69871-fdff-42dc-dc32-cf36b70ebb99, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /TG@Cliwn1i, headers: {Host: hk.922833.xyz}}, udp: true}
+  - {name: " 2", server: ca.922833.xyz, port: 443, type: vmess, uuid: 915bd968-12bf-4e8f-9835-bd66940d533a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: ca.922833.xyz}}, udp: true}
+  - {name: "@wbnet_🇨🇦_CA_2104", server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "@wbnet_🇨🇦_CA_2104 2", server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "@wbnet_🇨🇦_CA_2140", server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "@wbnet_🇨🇦_CA_2140 2", server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "@wbnet_🇨🇳_CN_1826", server: 14.29.124.174, port: 11049, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "@wbnet_🇷🇺_1319", server: 213.183.53.207, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "@wbnet_🇷🇺_1346", server: 213.183.53.207, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
+  - {name: "@wbnet_🇷🇺_1348", server: 213.183.53.208, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "@wbnet_🇷🇺_1375", server: 213.183.53.208, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "@wbnet_🇷🇺_1376", server: 213.183.53.208, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: "@wbnet_🇷🇺_1377", server: 213.183.53.208, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: "@wbnet_🇷🇺_1382", server: 213.183.53.207, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "@wbnet_🇷🇺_1394", server: 213.183.53.208, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "@wbnet_🇷🇺_1400", server: 213.183.53.207, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: "@wbnet_🇷🇺_1484", server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1004", server: 213.183.53.207, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1005", server: 213.183.53.207, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1006", server: 213.183.53.208, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1007", server: 213.183.53.208, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1008", server: 213.183.53.208, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1015", server: 213.183.53.207, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1019", server: 213.183.53.207, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1033", server: 213.183.53.208, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1046", server: 213.183.53.208, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1200", server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1877", server: 213.183.53.208, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1879", server: 213.183.53.208, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1884", server: 213.183.53.208, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1889", server: 213.183.53.208, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1904", server: 213.183.53.208, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_1991", server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_930", server: 213.183.53.207, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_969", server: 213.183.53.208, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_970", server: 213.183.53.208, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "@wbnet_🇷🇺_RU_997", server: 213.183.53.208, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 🇨🇳 台湾, server: 103.177.32.147, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8247a4cf6ed4, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twd1000tw001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇨🇳 台湾1, server: 103.177.32.202, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 99a98b14cf3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wtw1000mline003.fengchiline.live, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇭🇰 Az香港1, server: hk1.ningmengshui.xyz, port: 80, type: vmess, uuid: b17f9999-1608-4911-86f2-d0cf20bf1356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.youku.com}}, udp: true}
+  - {name: 🇭🇰 Az香港14, server: hk14.ningmengshui.xyz, port: 80, type: vmess, uuid: b17f9999-1608-4911-86f2-d0cf20bf1356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ali2.a.yximgs.com}}, udp: true}
+  - {name: 🇭🇰 Az香港4, server: hk4.ningmengshui.xyz, port: 80, type: vmess, uuid: b17f9999-1608-4911-86f2-d0cf20bf1356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk4.ningmengshui.xyz}}, udp: true}
+  - {name: 🇭🇰 Az香港6, server: hk6.ningmengshui.xyz, port: 80, type: vmess, uuid: b17f9999-1608-4911-86f2-d0cf20bf1356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk6.ningmengshui.xyz}}, udp: true}
+  - {name: 🇭🇰 Az香港9, server: hk9.ningmengshui.xyz, port: 80, type: vmess, uuid: b17f9999-1608-4911-86f2-d0cf20bf1356, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dm.toutiao.com}}, udp: true}
   - {name: 🇭🇰 V1|香港|Nginx+Trojan|01, server: www.anlocl.gq, port: 20521, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
   - {name: 🇭🇰 V1|香港|Nginx+Trojan|02, server: www.anlocl.gq, port: 30521, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anlocl.gq, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 V2|香港-长沙|中继|01, server: lt.feethree.top, port: 62251, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇭🇰 V3|香港-广州|中继|CMI|01, server: gy.feethree.top, port: 33950, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇭🇰 V3|香港-广州|中继|CMI|02, server: gy.feethree.top, port: 63041, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇭🇰 V3|香港-广州|中继|三网CMI, server: gy3.anoob.icu, port: 47496, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: 🇭🇰 V4|香港|隧道|流媒体中继|01, server: gy.feethree.top, port: 28254, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: "🇭🇰 [Azure]香港3•HGC", server: azhk.r.optage.moe, port: 44601, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [Azure]香港5•HKT", server: azhk.r.optage.moe, port: 44609, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [沪日]香港3•HGC", server: shcu.alinkrelay.com, port: 44601, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [沪日]香港5•HKT", server: shcu.alinkrelay.com, port: 44609, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇭🇰 [负载均衡]香港•Azure", server: azhk.n.optage.moe, port: 44602, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 印尼|雅加达-广港隧道-定制, server: gy.feethree.top, port: 60827, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇭🇰 香港1•HGC, server: hk.n.optage.moe, port: 44601, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港1•HGC 2, server: hk.n.optage.moe, port: 44601, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: hk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4•HKT, server: hkt.n.optage.moe, port: 44609, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 香港4•HKT 2, server: hkt.n.optage.moe, port: 44609, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: hkt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇮🇩 [Azure]印度尼西亚", server: azhk.r.optage.moe, port: 44607, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 印度尼西亚1, server: id.n.optage.moe, port: 44607, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇩 印度尼西亚1 2, server: id.n.optage.moe, port: 44607, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港, server: 103.233.251.211, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 127ed1400716, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk20jc001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇭🇰 香港1, server: 154.221.22.201, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a11a783e60ec, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: hk5Mysy001.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 🇯🇵 V1|日本|Nginx+Trojan|01, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
   - {name: 🇯🇵 V1|日本|Nginx+Trojan|02, server: jp.useanlo.cf, port: 10203, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: jp.useanlo.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 V2|日本-长沙|中继|01, server: lt.feethree.top, port: 53611, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇯🇵 V3|日本-广州|中继|01, server: gy.feethree.top, port: 33530, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇯🇵 V3|日本-广州|流媒体中继|01, server: gy3.anoob.icu, port: 36847, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: 🇯🇵 V4|日本|隧道|中继01, server: gy.feethree.top, port: 50533, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇯🇵 V4|日本|隧道|中继|02, server: lt.feethree.top, port: 10223, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇯🇵 V4|日本|隧道|流媒体中继|02, server: gy.feethree.top, port: 19380, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: "🇯🇵 [沪日]俄罗斯2", server: shcu.alinkrelay.com, port: 44606, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]俄罗斯2 2", server: shcu.alinkrelay.com, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]印度尼西亚", server: shcu.alinkrelay.com, port: 44607, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: id.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]法国1", server: shcu.alinkrelay.com, port: 44612, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]法国1 2", server: shcu.alinkrelay.com, port: 44612, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: fr.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]美国1", server: shcu.alinkrelay.com, port: 44610, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]美国2", server: shcu.alinkrelay.com, port: 44611, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: us.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]英国1", server: shcu.alinkrelay.com, port: 44613, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇯🇵 [沪日]英国1 2", server: shcu.alinkrelay.com, port: 44613, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: uk.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇯🇵 印尼|雅加达-湘日隧道-定制, server: hnlt.feethree.top, port: 18013, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: hnlt.feethree.top}}, udp: true}
-  - {name: 🇯🇵 印尼|雅加达-赣日隧道-定制, server: cn2.feethree.top, port: 49163, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: cn2.feethree.top}}, udp: true}
+  - {name: 🇯🇵 日本, server: 103.177.244.31, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: a1e041734a14, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wxw100Mjpline002.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 🇰🇷 V1|韩国|Nginx+Trojan|01, server: krcc4.feethree.top, port: 9038, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: krcc4.feethree.top, skip-cert-verify: true, udp: true}
-  - {name: 🇰🇷 V2|韩国-长沙|中继|01, server: lt.feethree.top, port: 16887, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇰🇷 V2|韩国-长沙|中继|02, server: lt.feethree.top, port: 46347, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇰🇷 V4|韩国|隧道|流媒体中继|01, server: gy.feethree.top, port: 50439, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: "🇰🇷 [负载均衡]韩国1", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇰🇷 [负载均衡]韩国1 2", server: ocikr.n.optage.moe, port: 44600, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇵🇭 [Azure]菲律宾马尼拉", server: azhk.r.optage.moe, port: 45002, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: 🇵🇭 菲律宾马尼拉, server: flb.alinkrelay.com, port: 12000, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: flb.alinkrelay.com, skip-cert-verify: true, udp: true}
-  - {name: "🇷🇺 [Azure]俄罗斯2", server: azhk.r.optage.moe, port: 44606, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇷🇺 [Azure]俄罗斯2 2", server: azhk.r.optage.moe, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯1, server: ru.n.optage.moe, port: 44606, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 俄罗斯1 2, server: ru.n.optage.moe, port: 44606, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: ru.node.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: 🇰🇷 韩国, server: 27.102.66.214, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 4b7c2bae5095, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wmk1000Mkrlines005.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇰🇷 韩国1, server: 27.102.106.171, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 40d5089833fc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wxw1000Mkrline002.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
   - {name: 🇸🇬 V1|新加坡|Nginx+Trojan|01, server: www.anloao.cf, port: 9053, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, sni: www.anloao.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 V2|新加坡-长沙|原生中继|01, server: lt.feethree.top, port: 46738, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇸🇬 V2|新加坡-长沙|原生中继|02, server: lt.feethree.top, port: 26835, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇸🇬 V3|新加坡-广州|中继|02, server: gy.feethree.top, port: 36746, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇸🇬 V3|新加坡-广州|原生中继, server: gy.feethree.top, port: 12631, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇸🇬 V3|新加坡-广州|原生中继|03, server: gy3.anoob.icu, port: 20789, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: 🇸🇬 V3|新加坡-广州|流媒体中继|01, server: gy3.anoob.icu, port: 34274, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy3.anoob.icu}}, udp: true}
-  - {name: 🇸🇬 V4|新加坡|隧道|原生中继|01, server: gy.feethree.top, port: 54062, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: "🇸🇬 [Azure]新加坡", server: azhk.r.optage.moe, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "🇸🇬 [沪日]新加坡", server: shcu.alinkrelay.com, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡, server: linsg.n.optage.moe, port: 44605, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 新加坡 2, server: linsg.n.optage.moe, port: 44605, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: cdn.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 V2|美国-长沙|中继|01, server: lt.feethree.top, port: 62912, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇺🇸 V3|美国-广州|中继|01, server: gy.feethree.top, port: 51317, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇺🇸 V4|美国|隧道|中继02, server: lt.feethree.top, port: 10200, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇺🇸 V4|美国|隧道|中继|01, server: gy.feethree.top, port: 34041, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
-  - {name: 🇺🇸 V4|美国|隧道|流媒体中继|03, server: lt.feethree.top, port: 11385, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇺🇸 美国1, server: usgt.n.optage.moe, port: 44610, type: trojan, password: 6c38efa1-395a-4dad-846e-e7bcad9ea569, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国1 2, server: usgt.n.optage.moe, port: 44610, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: usgt.node.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 美国2, server: us.n.optage.moe, port: 44611, type: trojan, password: c19e600d-5b19-48e4-9c6f-683ded859d09, sni: us.n.optage.moe, skip-cert-verify: true, udp: true}
-  - {name: 🇻🇳 V2|越南-长沙|流媒体中继|01, server: lt.feethree.top, port: 10200, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: lt.feethree.top}}, udp: true}
-  - {name: 🇻🇳 V3|越南-广州|中继|01, server: gy.feethree.top, port: 57983, type: vmess, uuid: 77065fa6-b38e-302c-beea-4b047967af01, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index, headers: {Host: gy.feethree.top}}, udp: true}
+  - {name: 🇸🇬 新加坡, server: 27.124.38.41, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 8cad99fbe8b9, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: nxw50jpline002.fengchiline.live, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 🇹🇭 泰国, server: 119.59.127.153, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 161df779f26d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: wxw1glt002.fengchiline.xyz, path: "", tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -105,586 +70,376 @@ proxy-groups:
       - DIRECT
       - 🔯 故障转移
       - 🔮 负载均衡
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -692,98 +447,63 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 加TG群:@FreeYule
-      - 加TG群:@FreeYule阅
-      - 🇨🇳 V2|台湾-长沙|原生中继|01
-      - 🇨🇳 V3|台湾-广州|原生中继|01
-      - 🇨🇳 V4|台湾|隧道|中继|01
-      - 🇨🇳 V4|台湾|隧道|原生中继|02
-      - 🇨🇳 [Azure]台湾1
-      - 🇨🇳 [沪日]台湾1
+      - ""
+      - " 2"
+      - "@wbnet_🇨🇦_CA_2104"
+      - "@wbnet_🇨🇦_CA_2104 2"
+      - "@wbnet_🇨🇦_CA_2140"
+      - "@wbnet_🇨🇦_CA_2140 2"
+      - "@wbnet_🇨🇳_CN_1826"
+      - "@wbnet_🇷🇺_1319"
+      - "@wbnet_🇷🇺_1346"
+      - "@wbnet_🇷🇺_1348"
+      - "@wbnet_🇷🇺_1375"
+      - "@wbnet_🇷🇺_1376"
+      - "@wbnet_🇷🇺_1377"
+      - "@wbnet_🇷🇺_1382"
+      - "@wbnet_🇷🇺_1394"
+      - "@wbnet_🇷🇺_1400"
+      - "@wbnet_🇷🇺_1484"
+      - "@wbnet_🇷🇺_RU_1004"
+      - "@wbnet_🇷🇺_RU_1005"
+      - "@wbnet_🇷🇺_RU_1006"
+      - "@wbnet_🇷🇺_RU_1007"
+      - "@wbnet_🇷🇺_RU_1008"
+      - "@wbnet_🇷🇺_RU_1015"
+      - "@wbnet_🇷🇺_RU_1019"
+      - "@wbnet_🇷🇺_RU_1033"
+      - "@wbnet_🇷🇺_RU_1046"
+      - "@wbnet_🇷🇺_RU_1200"
+      - "@wbnet_🇷🇺_RU_1877"
+      - "@wbnet_🇷🇺_RU_1879"
+      - "@wbnet_🇷🇺_RU_1884"
+      - "@wbnet_🇷🇺_RU_1889"
+      - "@wbnet_🇷🇺_RU_1904"
+      - "@wbnet_🇷🇺_RU_1991"
+      - "@wbnet_🇷🇺_RU_930"
+      - "@wbnet_🇷🇺_RU_969"
+      - "@wbnet_🇷🇺_RU_970"
+      - "@wbnet_🇷🇺_RU_997"
+      - 🇨🇳 台湾
       - 🇨🇳 台湾1
-      - 🇨🇳 台湾1 2
-      - 🇫🇷 [Azure]法国1
-      - 🇫🇷 [Azure]法国1 2
-      - 🇫🇷 法国1
-      - 🇫🇷 法国1 2
-      - 🇬🇧 V4|英国|隧道|中继|01
-      - 🇬🇧 [Azure]英国1
-      - 🇬🇧 [Azure]英国1 2
-      - 🇬🇧 英国1
-      - 🇬🇧 英国1 2
+      - 🇭🇰 Az香港1
+      - 🇭🇰 Az香港14
+      - 🇭🇰 Az香港4
+      - 🇭🇰 Az香港6
+      - 🇭🇰 Az香港9
       - 🇭🇰 V1|香港|Nginx+Trojan|01
       - 🇭🇰 V1|香港|Nginx+Trojan|02
-      - 🇭🇰 V2|香港-长沙|中继|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|01
-      - 🇭🇰 V3|香港-广州|中继|CMI|02
-      - 🇭🇰 V3|香港-广州|中继|三网CMI
-      - 🇭🇰 V4|香港|隧道|流媒体中继|01
-      - 🇭🇰 [Azure]香港3•HGC
-      - 🇭🇰 [Azure]香港5•HKT
-      - 🇭🇰 [沪日]香港3•HGC
-      - 🇭🇰 [沪日]香港5•HKT
-      - 🇭🇰 [负载均衡]香港•Azure
-      - 🇭🇰 印尼|雅加达-广港隧道-定制
-      - 🇭🇰 香港1•HGC
-      - 🇭🇰 香港1•HGC 2
-      - 🇭🇰 香港4•HKT
-      - 🇭🇰 香港4•HKT 2
-      - 🇮🇩 [Azure]印度尼西亚
-      - 🇮🇩 印度尼西亚1
-      - 🇮🇩 印度尼西亚1 2
+      - 🇭🇰 香港
+      - 🇭🇰 香港1
       - 🇯🇵 V1|日本|Nginx+Trojan|01
       - 🇯🇵 V1|日本|Nginx+Trojan|02
-      - 🇯🇵 V2|日本-长沙|中继|01
-      - 🇯🇵 V3|日本-广州|中继|01
-      - 🇯🇵 V3|日本-广州|流媒体中继|01
-      - 🇯🇵 V4|日本|隧道|中继01
-      - 🇯🇵 V4|日本|隧道|中继|02
-      - 🇯🇵 V4|日本|隧道|流媒体中继|02
-      - 🇯🇵 [沪日]俄罗斯2
-      - 🇯🇵 [沪日]俄罗斯2 2
-      - 🇯🇵 [沪日]印度尼西亚
-      - 🇯🇵 [沪日]法国1
-      - 🇯🇵 [沪日]法国1 2
-      - 🇯🇵 [沪日]美国1
-      - 🇯🇵 [沪日]美国2
-      - 🇯🇵 [沪日]英国1
-      - 🇯🇵 [沪日]英国1 2
-      - 🇯🇵 印尼|雅加达-湘日隧道-定制
-      - 🇯🇵 印尼|雅加达-赣日隧道-定制
+      - 🇯🇵 日本
       - 🇰🇷 V1|韩国|Nginx+Trojan|01
-      - 🇰🇷 V2|韩国-长沙|中继|01
-      - 🇰🇷 V2|韩国-长沙|中继|02
-      - 🇰🇷 V4|韩国|隧道|流媒体中继|01
-      - 🇰🇷 [负载均衡]韩国1
-      - 🇰🇷 [负载均衡]韩国1 2
-      - 🇵🇭 [Azure]菲律宾马尼拉
-      - 🇵🇭 菲律宾马尼拉
-      - 🇷🇺 [Azure]俄罗斯2
-      - 🇷🇺 [Azure]俄罗斯2 2
-      - 🇷🇺 俄罗斯1
-      - 🇷🇺 俄罗斯1 2
+      - 🇰🇷 韩国
+      - 🇰🇷 韩国1
       - 🇸🇬 V1|新加坡|Nginx+Trojan|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|01
-      - 🇸🇬 V2|新加坡-长沙|原生中继|02
-      - 🇸🇬 V3|新加坡-广州|中继|02
-      - 🇸🇬 V3|新加坡-广州|原生中继
-      - 🇸🇬 V3|新加坡-广州|原生中继|03
-      - 🇸🇬 V3|新加坡-广州|流媒体中继|01
-      - 🇸🇬 V4|新加坡|隧道|原生中继|01
-      - 🇸🇬 [Azure]新加坡
-      - 🇸🇬 [沪日]新加坡
       - 🇸🇬 新加坡
-      - 🇸🇬 新加坡 2
-      - 🇺🇸 V2|美国-长沙|中继|01
-      - 🇺🇸 V3|美国-广州|中继|01
-      - 🇺🇸 V4|美国|隧道|中继02
-      - 🇺🇸 V4|美国|隧道|中继|01
-      - 🇺🇸 V4|美国|隧道|流媒体中继|03
-      - 🇺🇸 美国1
-      - 🇺🇸 美国1 2
-      - 🇺🇸 美国2
-      - 🇻🇳 V2|越南-长沙|流媒体中继|01
-      - 🇻🇳 V3|越南-广州|中继|01
+      - 🇹🇭 泰国
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
