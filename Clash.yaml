@@ -5,319 +5,319 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: -.-中国-.-1, server: yum-y.update.mipglxi.cn, port: 6431, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-10, server: aliyun.install03.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-100, server: aliyun.install02.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-101, server: aliyun.install04.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-102, server: aliyun.install01.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-104, server: yum-y.update.mipglxi.cn, port: 6420, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-105, server: 52.81.179.243, port: 10005, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
-  - {name: -.-中国-.-107, server: aliyun.install04.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-108, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-109, server: aliyun.install01.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-11, server: aliyun.install03.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-110, server: aliyun.install03.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-111, server: aliyun.install02.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-112, server: yum-y.update.mipglxi.cn, port: 6432, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-113, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-114, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-115, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-116, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-118, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-119, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-12, server: aliyun.install03.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-120, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-121, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-122, server: aliyun.moble.vnupgcn.cn, port: 9034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-124, server: aliyun.unicom.vnupgcn.cn, port: 9028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-125, server: aliyun.moble.vnupgcn.cn, port: 9033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-126, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-127, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-128, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-129, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-13, server: yum-y.update.mipglxi.cn, port: 6405, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-130, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-131, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-132, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-133, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-134, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-135, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-136, server: yum-y.update.mipglxi.cn, port: 6415, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-137, server: aliyun.install04.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-138, server: aliyun.moble.vnupgcn.cn, port: 9032, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-139, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-14, server: aliyun.install02.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-140, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-141, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-142, server: aliyun.install02.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-143, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-144, server: aliyun.install04.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-145, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-146, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-147, server: yum-y.update.mipglxi.cn, port: 6410, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-148, server: aliyun.install01.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-149, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-15, server: aliyun.install03.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-150, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-151, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-152, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-153, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-154, server: aliyun.moble.vnupgcn.cn, port: 9038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-155, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-156, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-157, server: aliyun.install03.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-158, server: aliyun.moble.vnupgcn.cn, port: 9043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-159, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-16, server: yum-y.update.mipglxi.cn, port: 6403, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-160, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-161, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-162, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-163, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-164, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-165, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-166, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-167, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-168, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-169, server: aliyun.moble.vnupgcn.cn, port: 9045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-17, server: aliyun.install01.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-170, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-171, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-172, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-173, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-174, server: aliyun.moble.vnupgcn.cn, port: 9037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-175, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-176, server: aliyun.moble.vnupgcn.cn, port: 9042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-177, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-178, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-179, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-18, server: aliyun.install02.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-180, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-181, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-182, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-183, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-184, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-186, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-187, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-188, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-189, server: aliyun.install02.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-19, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-190, server: aliyun.install01.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-191, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-192, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-193, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-194, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-195, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-196, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-197, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-198, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-2, server: aliyun.install04.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-20, server: aliyun.install01.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-200, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-201, server: aliyun.moble.vnupgcn.cn, port: 9036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-202, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-203, server: aliyun.install04.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-204, server: aliyun.install03.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-205, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-206, server: aliyun.moble.vnupgcn.cn, port: 9041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-207, server: aliyun.unicom.vnupgcn.cn, port: 9024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-208, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-209, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-21, server: aliyun.install03.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-210, server: aliyun.install02.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-211, server: aliyun.install03.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-212, server: aliyun.install04.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-213, server: aliyun.install01.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-214, server: aliyun.moble.vnupgcn.cn, port: 9044, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-215, server: aliyun.moble.vnupgcn.cn, port: 9003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-216, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-217, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: -.-中国-.-218, server: aliyun.unicom.vnupgcn.cn, port: 9029, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-219, server: yum-y.update.mipglxi.cn, port: 6419, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-22, server: aliyun.install04.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-220, server: aliyun.install01.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-221, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-222, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-223, server: zz6.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-224, server: aliyun.unicom.vnupgcn.cn, port: 9025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-225, server: aliyun.install01.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-227, server: aliyun.moble.vnupgcn.cn, port: 9015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-228, server: aliyun.install04.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-229, server: aliyun.install03.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-230, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-231, server: yum-y.update.mipglxi.cn, port: 6408, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-232, server: aliyun.moble.vnupgcn.cn, port: 9030, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-233, server: aliyun.moble.vnupgcn.cn, port: 9035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-234, server: aliyun.unicom.vnupgcn.cn, port: 9026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-235, server: aliyun.moble.vnupgcn.cn, port: 9039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-236, server: aliyun.unicom.vnupgcn.cn, port: 9022, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-237, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-24, server: aliyun.install04.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-240, server: yum-y.update.mipglxi.cn, port: 6407, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-241, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-242, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-243, server: yum-y.update.mipglxi.cn, port: 6429, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-244, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-245, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-246, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-25, server: aliyun.install02.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-250, server: yum-y.update.mipglxi.cn, port: 6411, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-252, server: yum-y.update.mipglxi.cn, port: 6428, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-253, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-254, server: yum-y.update.mipglxi.cn, port: 6418, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-255, server: aliyun.install03.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-257, server: aliyun.install01.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-258, server: yum-y.update.mipglxi.cn, port: 6402, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-26, server: aliyun.install03.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-260, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-264, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
-  - {name: -.-中国-.-266, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-267, server: yum-y.update.mipglxi.cn, port: 6430, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-269, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-27, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-274, server: aliyun.install04.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-276, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-279, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-28, server: aliyun.install01.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-281, server: aliyun.install02.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-282, server: aliyun.install03.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-283, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-284, server: aliyun.moble.vnupgcn.cn, port: 9019, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-285, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-286, server: aliyun.install01.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-287, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-289, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-29, server: aliyun.install01.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-290, server: aliyun.install04.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-291, server: aliyun.install02.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-292, server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-293, server: aliyun.install03.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-295, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-296, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-297, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-298, server: aliyun.moble.vnupgcn.cn, port: 9004, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-299, server: aliyun.install04.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-3, server: aliyun.install02.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-30, server: aliyun.install01.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-300, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-302, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-303, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-304, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-305, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-306, server: yum-y.update.mipglxi.cn, port: 6406, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-307, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-309, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-31, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-310, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-311, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-312, server: aliyun.moble.vnupgcn.cn, port: 9005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-313, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-32, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-33, server: aliyun.moble.vnupgcn.cn, port: 9002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-34, server: aliyun.install02.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-35, server: yum-y.update.mipglxi.cn, port: 6416, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-36, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cloud.189.cn:80}}, udp: true}
-  - {name: -.-中国-.-37, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
-  - {name: -.-中国-.-38, server: aliyun.install04.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-39, server: aliyun.install02.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-4, server: aliyun.install03.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-40, server: aliyun.install01.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-41, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
-  - {name: -.-中国-.-42, server: aliyun.install03.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-43, server: aliyun.install01.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-45, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-46, server: aliyun.moble.vnupgcn.cn, port: 9006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-47, server: aliyun.install02.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-48, server: aliyun.unicom.vnupgcn.cn, port: 9023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-49, server: aliyun.unicom.vnupgcn.cn, port: 9027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-5, server: aliyun.install01.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-50, server: aliyun.install01.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-51, server: aliyun.install04.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-52, server: aliyun.install03.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-53, server: aliyun.install03.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-54, server: aliyun.install04.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-55, server: aliyun.install01.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-56, server: aliyun.install02.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-57, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-58, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-59, server: aliyun.install02.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-60, server: aliyun.install01.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-61, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-62, server: aliyun.install04.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-64, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-65, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-66, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-67, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-69, server: yum-y.update.mipglxi.cn, port: 6413, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-7, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-70, server: aliyun.install03.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-71, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-72, server: aliyun.install01.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-73, server: aliyun.install02.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-74, server: aliyun.install02.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-75, server: aliyun.install01.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-76, server: yum-y.update.mipglxi.cn, port: 6404, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-77, server: aliyun.install03.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-78, server: aliyun.install02.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-79, server: aliyun.install04.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-8, server: aliyun.install02.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-80, server: aliyun.install03.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-81, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-83, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-84, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-88, server: aliyun.install03.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-9, server: aliyun.install04.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-90, server: aliyun.install03.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-91, server: aliyun.install04.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-92, server: yum-y.update.mipglxi.cn, port: 6414, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-93, server: aliyun.install02.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-94, server: aliyun.install01.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-95, server: yum-y.update.mipglxi.cn, port: 6417, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-96, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-97, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: -.-中国-.-98, server: yum-y.update.mipglxi.cn, port: 6427, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
-  - {name: -.-中国-.-99, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 -.-台湾-.-247, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 -.-台湾-.-277, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
-  - {name: 🇨🇳 -.-台湾-.-280, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
-  - {name: 🇩🇪 -.-德国-.-248, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 🇭🇰 -.-香港-.-106, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: uDTmEAGwuCUZXZvwhWJk, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-117, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-123, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-185, server: 103.218.243.21, port: 10003, type: vmess, uuid: 4fe413ef-e3a2-40df-fba0-6d151dd3b2b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-199, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-226, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-270, server: trojannmfan4.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇭🇰 -.-香港-.-273, server: trojannmfan4.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 -.-伊朗-.-294, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 -.-伊朗-.-82, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇮🇷 -.-伊朗-.-87, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇷🇺 -.-俄罗斯联邦-.-272, server: 141.98.168.250, port: 443, type: trojan, password: l6JKCZ, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-262, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-265, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-268, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-275, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-308, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇸🇬 -.-新加坡-.-6, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-103, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-23, server: 152.70.136.12, port: 23054, type: vmess, uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-238, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-239, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-249, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-251, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-256, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-259, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-261, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-263, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-271, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-278, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-288, server: trojannmfan7.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-301, server: trojannmfan7.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-44, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-63, server: www.cjf0423.cf, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-68, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-85, server: www.cjf0423.cf, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.cf, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-86, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 🇺🇸 -.-美国-.-89, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国1, server: yum-y.update.mipglxi.cn, port: 6431, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国10, server: aliyun.install03.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国100, server: aliyun.install02.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国101, server: aliyun.install04.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国102, server: aliyun.install01.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国104, server: yum-y.update.mipglxi.cn, port: 6420, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国105, server: 52.81.179.243, port: 10005, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
+  - {name: 🇨🇳 中国107, server: aliyun.install04.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国108, server: s1.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国109, server: aliyun.install01.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国11, server: aliyun.install03.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国110, server: aliyun.install03.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国111, server: aliyun.install02.vnupgcn.cn, port: 11914, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国112, server: yum-y.update.mipglxi.cn, port: 6432, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国113, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国114, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国115, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国116, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国118, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国119, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国12, server: aliyun.install03.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国120, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国121, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国122, server: aliyun.moble.vnupgcn.cn, port: 9034, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国124, server: aliyun.unicom.vnupgcn.cn, port: 9028, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国125, server: aliyun.moble.vnupgcn.cn, port: 9033, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国126, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国127, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国128, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国129, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国13, server: yum-y.update.mipglxi.cn, port: 6405, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国130, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国131, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国132, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国133, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国134, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国135, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国136, server: yum-y.update.mipglxi.cn, port: 6415, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国137, server: aliyun.install04.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国138, server: aliyun.moble.vnupgcn.cn, port: 9032, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国139, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国14, server: aliyun.install02.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国140, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国141, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国142, server: aliyun.install02.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国143, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国144, server: aliyun.install04.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国145, server: aliyun.moble.vnupgcn.cn, port: 9017, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国146, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国147, server: yum-y.update.mipglxi.cn, port: 6410, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国148, server: aliyun.install01.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国149, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国15, server: aliyun.install03.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国150, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国151, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国152, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国153, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国154, server: aliyun.moble.vnupgcn.cn, port: 9038, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国155, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国156, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国157, server: aliyun.install03.vnupgcn.cn, port: 11905, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国158, server: aliyun.moble.vnupgcn.cn, port: 9043, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国159, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国16, server: yum-y.update.mipglxi.cn, port: 6403, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国160, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国161, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国162, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国163, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国164, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国165, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国166, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国167, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国168, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国169, server: aliyun.moble.vnupgcn.cn, port: 9045, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国17, server: aliyun.install01.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国170, server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国171, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国172, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国173, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国174, server: aliyun.moble.vnupgcn.cn, port: 9037, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国175, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国176, server: aliyun.moble.vnupgcn.cn, port: 9042, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国177, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国178, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国179, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国18, server: aliyun.install02.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国180, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国181, server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国182, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国183, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国184, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国186, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国187, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国188, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国189, server: aliyun.install02.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国19, server: s3.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国190, server: aliyun.install01.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国191, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国192, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国193, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国194, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国195, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国196, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国197, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国198, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国2, server: aliyun.install04.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国20, server: aliyun.install01.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国200, server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国201, server: aliyun.moble.vnupgcn.cn, port: 9036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国202, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国203, server: aliyun.install04.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国204, server: aliyun.install03.vnupgcn.cn, port: 11901, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国205, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国206, server: aliyun.moble.vnupgcn.cn, port: 9041, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国207, server: aliyun.unicom.vnupgcn.cn, port: 9024, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国208, server: 14.29.124.168, port: 25279, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国209, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国21, server: aliyun.install03.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国210, server: aliyun.install02.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国211, server: aliyun.install03.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国212, server: aliyun.install04.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国213, server: aliyun.install01.vnupgcn.cn, port: 11931, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国214, server: aliyun.moble.vnupgcn.cn, port: 9044, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国215, server: aliyun.moble.vnupgcn.cn, port: 9003, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国216, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国217, server: 14.29.124.174, port: 11047, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 🇨🇳 中国218, server: aliyun.unicom.vnupgcn.cn, port: 9029, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国219, server: yum-y.update.mipglxi.cn, port: 6419, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国22, server: aliyun.install04.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国220, server: aliyun.install01.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国221, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国222, server: aliyun.moble.vnupgcn.cn, port: 9031, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国223, server: zz6.91js.pw, port: 10051, type: trojan, password: a13820c547fa34c5c45515c12f0cd576, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国224, server: aliyun.unicom.vnupgcn.cn, port: 9025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国225, server: aliyun.install01.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国227, server: aliyun.moble.vnupgcn.cn, port: 9015, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国228, server: aliyun.install04.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国229, server: aliyun.install03.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国230, server: aliyun.install02.vnupgcn.cn, port: 11908, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国231, server: yum-y.update.mipglxi.cn, port: 6408, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国232, server: aliyun.moble.vnupgcn.cn, port: 9030, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国233, server: aliyun.moble.vnupgcn.cn, port: 9035, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国234, server: aliyun.unicom.vnupgcn.cn, port: 9026, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国235, server: aliyun.moble.vnupgcn.cn, port: 9039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国236, server: aliyun.unicom.vnupgcn.cn, port: 9022, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国237, server: aliyun.unicom.vnupgcn.cn, port: 9001, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国24, server: aliyun.install04.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国240, server: yum-y.update.mipglxi.cn, port: 6407, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国241, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国242, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国243, server: yum-y.update.mipglxi.cn, port: 6429, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国244, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国245, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国246, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国25, server: aliyun.install02.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国250, server: yum-y.update.mipglxi.cn, port: 6411, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国252, server: yum-y.update.mipglxi.cn, port: 6428, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国253, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国254, server: yum-y.update.mipglxi.cn, port: 6418, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国255, server: aliyun.install03.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国257, server: aliyun.install01.vnupgcn.cn, port: 11920, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国258, server: yum-y.update.mipglxi.cn, port: 6402, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国26, server: aliyun.install03.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国260, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国264, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
+  - {name: 🇨🇳 中国266, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国267, server: yum-y.update.mipglxi.cn, port: 6430, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国269, server: aliyun.install04.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国27, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国274, server: aliyun.install04.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国276, server: aliyun.install02.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国279, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国28, server: aliyun.install01.vnupgcn.cn, port: 11935, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国281, server: aliyun.install02.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国282, server: aliyun.install03.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国283, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国284, server: aliyun.moble.vnupgcn.cn, port: 9019, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国285, server: aliyun.install01.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国286, server: aliyun.install01.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国287, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国289, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国29, server: aliyun.install01.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国290, server: aliyun.install04.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国291, server: aliyun.install02.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国292, server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国293, server: aliyun.install03.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国295, server: aliyun.moble.vnupgcn.cn, port: 9013, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国296, server: aliyun.install03.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国297, server: aliyun.install03.vnupgcn.cn, port: 11906, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国298, server: aliyun.moble.vnupgcn.cn, port: 9004, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国299, server: aliyun.install04.vnupgcn.cn, port: 11913, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国3, server: aliyun.install02.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国30, server: aliyun.install01.vnupgcn.cn, port: 11921, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国300, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国302, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国303, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国304, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国305, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国306, server: yum-y.update.mipglxi.cn, port: 6406, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国307, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国309, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国31, server: aliyun.install04.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国310, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国311, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国312, server: aliyun.moble.vnupgcn.cn, port: 9005, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国313, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国32, server: aliyun.install01.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国33, server: aliyun.moble.vnupgcn.cn, port: 9002, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国34, server: aliyun.install02.vnupgcn.cn, port: 11917, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国35, server: yum-y.update.mipglxi.cn, port: 6416, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国36, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: download.cloud.189.cn:80}}, udp: true}
+  - {name: 🇨🇳 中国37, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
+  - {name: 🇨🇳 中国38, server: aliyun.install04.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国39, server: aliyun.install02.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国4, server: aliyun.install03.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国40, server: aliyun.install01.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国41, server: 36.137.14.38, port: 809, type: vmess, uuid: b407e880-cae7-4825-8ea1-5c509fcac743, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: 36.137.14.38}}, udp: true}
+  - {name: 🇨🇳 中国42, server: aliyun.install03.vnupgcn.cn, port: 11922, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国43, server: aliyun.install01.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国45, server: s2.mine.com.cn, port: 4433, type: vmess, uuid: 77a286f4-0a0b-4ef7-aaef-a4fff60872e9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国46, server: aliyun.moble.vnupgcn.cn, port: 9006, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国47, server: aliyun.install02.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国48, server: aliyun.unicom.vnupgcn.cn, port: 9023, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国49, server: aliyun.unicom.vnupgcn.cn, port: 9027, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国5, server: aliyun.install01.vnupgcn.cn, port: 11918, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国50, server: aliyun.install01.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国51, server: aliyun.install04.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国52, server: aliyun.install03.vnupgcn.cn, port: 11902, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国53, server: aliyun.install03.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国54, server: aliyun.install04.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国55, server: aliyun.install01.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国56, server: aliyun.install02.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国57, server: aliyun.install03.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国58, server: aliyun.moble.vnupgcn.cn, port: 9016, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国59, server: aliyun.install02.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国60, server: aliyun.install01.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国61, server: aliyun.install04.vnupgcn.cn, port: 11933, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国62, server: aliyun.install04.vnupgcn.cn, port: 11909, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国64, server: aliyun.install03.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国65, server: aliyun.install02.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国66, server: aliyun.install01.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国67, server: aliyun.install04.vnupgcn.cn, port: 11907, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国69, server: yum-y.update.mipglxi.cn, port: 6413, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国7, server: aliyun.moble.vnupgcn.cn, port: 9009, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国70, server: aliyun.install03.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国71, server: aliyun.install04.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国72, server: aliyun.install01.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国73, server: aliyun.install02.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国74, server: aliyun.install02.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国75, server: aliyun.install01.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国76, server: yum-y.update.mipglxi.cn, port: 6404, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国77, server: aliyun.install03.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国78, server: aliyun.install02.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国79, server: aliyun.install04.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国8, server: aliyun.install02.vnupgcn.cn, port: 11926, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国80, server: aliyun.install03.vnupgcn.cn, port: 11912, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国81, server: aliyun.moble.vnupgcn.cn, port: 9018, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国83, server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国84, server: aliyun.install04.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国88, server: aliyun.install03.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国9, server: aliyun.install04.vnupgcn.cn, port: 11930, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国90, server: aliyun.install03.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国91, server: aliyun.install04.vnupgcn.cn, port: 11919, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国92, server: yum-y.update.mipglxi.cn, port: 6414, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国93, server: aliyun.install02.vnupgcn.cn, port: 11927, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国94, server: aliyun.install01.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国95, server: yum-y.update.mipglxi.cn, port: 6417, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国96, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国97, server: aliyun.install03.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 中国98, server: yum-y.update.mipglxi.cn, port: 6427, type: ss, cipher: aes-128-gcm, password: f293882b-2836-40f2-bb96-29be440d039e, udp: true}
+  - {name: 🇨🇳 中国99, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾247, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾277, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 台湾280, server: www.cjf0423.ga, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ga, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 德国248, server: 193.108.118.30, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇭🇰 香港106, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: uDTmEAGwuCUZXZvwhWJk, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港117, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf, sni: cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港123, server: hk-gz-hk-hkt-tr-b.cdn.savoy.click, port: 889, type: trojan, password: TqGiLGqoqLUssJpiIamJCpkGtxMRVJFV, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港185, server: 103.218.243.21, port: 10003, type: vmess, uuid: 4fe413ef-e3a2-40df-fba0-6d151dd3b2b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港199, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港226, server: 128.1.134.126, port: 6666, type: vmess, uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港270, server: trojannmfan4.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 香港273, server: trojannmfan4.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗294, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗82, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇮🇷 伊朗87, server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇷🇺 俄罗斯联邦272, server: 141.98.168.250, port: 443, type: trojan, password: l6JKCZ, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡262, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡265, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡268, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡275, server: sg-02.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡308, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇸🇬 新加坡6, server: trojannmfan8.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国103, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国23, server: 152.70.136.12, port: 23054, type: vmess, uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国238, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国239, server: www.cjf0423.tk, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.tk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国249, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国251, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国256, server: jp.useanlo.cf, port: 6523, type: trojan, password: 77065fa6-b38e-302c-beea-4b047967af01, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国259, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国261, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国263, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国271, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国278, server: www.cjf0423.ml, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.ml, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国288, server: trojannmfan7.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国301, server: trojannmfan7.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国44, server: trojannmfan1.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国63, server: www.cjf0423.cf, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.cf, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国68, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国85, server: www.cjf0423.cf, port: 443, type: trojan, password: !<str> 111111, sni: www.cjf0423.cf, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国86, server: 51.81.223.32, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国89, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -326,1912 +326,1912 @@ proxy-groups:
       - DIRECT
       - 🔯 故障转移
       - 🔮 负载均衡
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: Ⓜ️ 微软云盘
     type: select
     proxies:
       - DIRECT
       - 🚀 节点选择
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: 🐟 漏网之鱼
     type: select
     proxies:
       - 🚀 节点选择
       - DIRECT
       - ♻️ 自动选择
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -2239,319 +2239,319 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - -.-中国-.-1
-      - -.-中国-.-10
-      - -.-中国-.-100
-      - -.-中国-.-101
-      - -.-中国-.-102
-      - -.-中国-.-104
-      - -.-中国-.-105
-      - -.-中国-.-107
-      - -.-中国-.-108
-      - -.-中国-.-109
-      - -.-中国-.-11
-      - -.-中国-.-110
-      - -.-中国-.-111
-      - -.-中国-.-112
-      - -.-中国-.-113
-      - -.-中国-.-114
-      - -.-中国-.-115
-      - -.-中国-.-116
-      - -.-中国-.-118
-      - -.-中国-.-119
-      - -.-中国-.-12
-      - -.-中国-.-120
-      - -.-中国-.-121
-      - -.-中国-.-122
-      - -.-中国-.-124
-      - -.-中国-.-125
-      - -.-中国-.-126
-      - -.-中国-.-127
-      - -.-中国-.-128
-      - -.-中国-.-129
-      - -.-中国-.-13
-      - -.-中国-.-130
-      - -.-中国-.-131
-      - -.-中国-.-132
-      - -.-中国-.-133
-      - -.-中国-.-134
-      - -.-中国-.-135
-      - -.-中国-.-136
-      - -.-中国-.-137
-      - -.-中国-.-138
-      - -.-中国-.-139
-      - -.-中国-.-14
-      - -.-中国-.-140
-      - -.-中国-.-141
-      - -.-中国-.-142
-      - -.-中国-.-143
-      - -.-中国-.-144
-      - -.-中国-.-145
-      - -.-中国-.-146
-      - -.-中国-.-147
-      - -.-中国-.-148
-      - -.-中国-.-149
-      - -.-中国-.-15
-      - -.-中国-.-150
-      - -.-中国-.-151
-      - -.-中国-.-152
-      - -.-中国-.-153
-      - -.-中国-.-154
-      - -.-中国-.-155
-      - -.-中国-.-156
-      - -.-中国-.-157
-      - -.-中国-.-158
-      - -.-中国-.-159
-      - -.-中国-.-16
-      - -.-中国-.-160
-      - -.-中国-.-161
-      - -.-中国-.-162
-      - -.-中国-.-163
-      - -.-中国-.-164
-      - -.-中国-.-165
-      - -.-中国-.-166
-      - -.-中国-.-167
-      - -.-中国-.-168
-      - -.-中国-.-169
-      - -.-中国-.-17
-      - -.-中国-.-170
-      - -.-中国-.-171
-      - -.-中国-.-172
-      - -.-中国-.-173
-      - -.-中国-.-174
-      - -.-中国-.-175
-      - -.-中国-.-176
-      - -.-中国-.-177
-      - -.-中国-.-178
-      - -.-中国-.-179
-      - -.-中国-.-18
-      - -.-中国-.-180
-      - -.-中国-.-181
-      - -.-中国-.-182
-      - -.-中国-.-183
-      - -.-中国-.-184
-      - -.-中国-.-186
-      - -.-中国-.-187
-      - -.-中国-.-188
-      - -.-中国-.-189
-      - -.-中国-.-19
-      - -.-中国-.-190
-      - -.-中国-.-191
-      - -.-中国-.-192
-      - -.-中国-.-193
-      - -.-中国-.-194
-      - -.-中国-.-195
-      - -.-中国-.-196
-      - -.-中国-.-197
-      - -.-中国-.-198
-      - -.-中国-.-2
-      - -.-中国-.-20
-      - -.-中国-.-200
-      - -.-中国-.-201
-      - -.-中国-.-202
-      - -.-中国-.-203
-      - -.-中国-.-204
-      - -.-中国-.-205
-      - -.-中国-.-206
-      - -.-中国-.-207
-      - -.-中国-.-208
-      - -.-中国-.-209
-      - -.-中国-.-21
-      - -.-中国-.-210
-      - -.-中国-.-211
-      - -.-中国-.-212
-      - -.-中国-.-213
-      - -.-中国-.-214
-      - -.-中国-.-215
-      - -.-中国-.-216
-      - -.-中国-.-217
-      - -.-中国-.-218
-      - -.-中国-.-219
-      - -.-中国-.-22
-      - -.-中国-.-220
-      - -.-中国-.-221
-      - -.-中国-.-222
-      - -.-中国-.-223
-      - -.-中国-.-224
-      - -.-中国-.-225
-      - -.-中国-.-227
-      - -.-中国-.-228
-      - -.-中国-.-229
-      - -.-中国-.-230
-      - -.-中国-.-231
-      - -.-中国-.-232
-      - -.-中国-.-233
-      - -.-中国-.-234
-      - -.-中国-.-235
-      - -.-中国-.-236
-      - -.-中国-.-237
-      - -.-中国-.-24
-      - -.-中国-.-240
-      - -.-中国-.-241
-      - -.-中国-.-242
-      - -.-中国-.-243
-      - -.-中国-.-244
-      - -.-中国-.-245
-      - -.-中国-.-246
-      - -.-中国-.-25
-      - -.-中国-.-250
-      - -.-中国-.-252
-      - -.-中国-.-253
-      - -.-中国-.-254
-      - -.-中国-.-255
-      - -.-中国-.-257
-      - -.-中国-.-258
-      - -.-中国-.-26
-      - -.-中国-.-260
-      - -.-中国-.-264
-      - -.-中国-.-266
-      - -.-中国-.-267
-      - -.-中国-.-269
-      - -.-中国-.-27
-      - -.-中国-.-274
-      - -.-中国-.-276
-      - -.-中国-.-279
-      - -.-中国-.-28
-      - -.-中国-.-281
-      - -.-中国-.-282
-      - -.-中国-.-283
-      - -.-中国-.-284
-      - -.-中国-.-285
-      - -.-中国-.-286
-      - -.-中国-.-287
-      - -.-中国-.-289
-      - -.-中国-.-29
-      - -.-中国-.-290
-      - -.-中国-.-291
-      - -.-中国-.-292
-      - -.-中国-.-293
-      - -.-中国-.-295
-      - -.-中国-.-296
-      - -.-中国-.-297
-      - -.-中国-.-298
-      - -.-中国-.-299
-      - -.-中国-.-3
-      - -.-中国-.-30
-      - -.-中国-.-300
-      - -.-中国-.-302
-      - -.-中国-.-303
-      - -.-中国-.-304
-      - -.-中国-.-305
-      - -.-中国-.-306
-      - -.-中国-.-307
-      - -.-中国-.-309
-      - -.-中国-.-31
-      - -.-中国-.-310
-      - -.-中国-.-311
-      - -.-中国-.-312
-      - -.-中国-.-313
-      - -.-中国-.-32
-      - -.-中国-.-33
-      - -.-中国-.-34
-      - -.-中国-.-35
-      - -.-中国-.-36
-      - -.-中国-.-37
-      - -.-中国-.-38
-      - -.-中国-.-39
-      - -.-中国-.-4
-      - -.-中国-.-40
-      - -.-中国-.-41
-      - -.-中国-.-42
-      - -.-中国-.-43
-      - -.-中国-.-45
-      - -.-中国-.-46
-      - -.-中国-.-47
-      - -.-中国-.-48
-      - -.-中国-.-49
-      - -.-中国-.-5
-      - -.-中国-.-50
-      - -.-中国-.-51
-      - -.-中国-.-52
-      - -.-中国-.-53
-      - -.-中国-.-54
-      - -.-中国-.-55
-      - -.-中国-.-56
-      - -.-中国-.-57
-      - -.-中国-.-58
-      - -.-中国-.-59
-      - -.-中国-.-60
-      - -.-中国-.-61
-      - -.-中国-.-62
-      - -.-中国-.-64
-      - -.-中国-.-65
-      - -.-中国-.-66
-      - -.-中国-.-67
-      - -.-中国-.-69
-      - -.-中国-.-7
-      - -.-中国-.-70
-      - -.-中国-.-71
-      - -.-中国-.-72
-      - -.-中国-.-73
-      - -.-中国-.-74
-      - -.-中国-.-75
-      - -.-中国-.-76
-      - -.-中国-.-77
-      - -.-中国-.-78
-      - -.-中国-.-79
-      - -.-中国-.-8
-      - -.-中国-.-80
-      - -.-中国-.-81
-      - -.-中国-.-83
-      - -.-中国-.-84
-      - -.-中国-.-88
-      - -.-中国-.-9
-      - -.-中国-.-90
-      - -.-中国-.-91
-      - -.-中国-.-92
-      - -.-中国-.-93
-      - -.-中国-.-94
-      - -.-中国-.-95
-      - -.-中国-.-96
-      - -.-中国-.-97
-      - -.-中国-.-98
-      - -.-中国-.-99
-      - 🇨🇳 -.-台湾-.-247
-      - 🇨🇳 -.-台湾-.-277
-      - 🇨🇳 -.-台湾-.-280
-      - 🇩🇪 -.-德国-.-248
-      - 🇭🇰 -.-香港-.-106
-      - 🇭🇰 -.-香港-.-117
-      - 🇭🇰 -.-香港-.-123
-      - 🇭🇰 -.-香港-.-185
-      - 🇭🇰 -.-香港-.-199
-      - 🇭🇰 -.-香港-.-226
-      - 🇭🇰 -.-香港-.-270
-      - 🇭🇰 -.-香港-.-273
-      - 🇮🇷 -.-伊朗-.-294
-      - 🇮🇷 -.-伊朗-.-82
-      - 🇮🇷 -.-伊朗-.-87
-      - 🇷🇺 -.-俄罗斯联邦-.-272
-      - 🇸🇬 -.-新加坡-.-262
-      - 🇸🇬 -.-新加坡-.-265
-      - 🇸🇬 -.-新加坡-.-268
-      - 🇸🇬 -.-新加坡-.-275
-      - 🇸🇬 -.-新加坡-.-308
-      - 🇸🇬 -.-新加坡-.-6
-      - 🇺🇸 -.-美国-.-103
-      - 🇺🇸 -.-美国-.-23
-      - 🇺🇸 -.-美国-.-238
-      - 🇺🇸 -.-美国-.-239
-      - 🇺🇸 -.-美国-.-249
-      - 🇺🇸 -.-美国-.-251
-      - 🇺🇸 -.-美国-.-256
-      - 🇺🇸 -.-美国-.-259
-      - 🇺🇸 -.-美国-.-261
-      - 🇺🇸 -.-美国-.-263
-      - 🇺🇸 -.-美国-.-271
-      - 🇺🇸 -.-美国-.-278
-      - 🇺🇸 -.-美国-.-288
-      - 🇺🇸 -.-美国-.-301
-      - 🇺🇸 -.-美国-.-44
-      - 🇺🇸 -.-美国-.-63
-      - 🇺🇸 -.-美国-.-68
-      - 🇺🇸 -.-美国-.-85
-      - 🇺🇸 -.-美国-.-86
-      - 🇺🇸 -.-美国-.-89
+      - 🇨🇳 中国1
+      - 🇨🇳 中国10
+      - 🇨🇳 中国100
+      - 🇨🇳 中国101
+      - 🇨🇳 中国102
+      - 🇨🇳 中国104
+      - 🇨🇳 中国105
+      - 🇨🇳 中国107
+      - 🇨🇳 中国108
+      - 🇨🇳 中国109
+      - 🇨🇳 中国11
+      - 🇨🇳 中国110
+      - 🇨🇳 中国111
+      - 🇨🇳 中国112
+      - 🇨🇳 中国113
+      - 🇨🇳 中国114
+      - 🇨🇳 中国115
+      - 🇨🇳 中国116
+      - 🇨🇳 中国118
+      - 🇨🇳 中国119
+      - 🇨🇳 中国12
+      - 🇨🇳 中国120
+      - 🇨🇳 中国121
+      - 🇨🇳 中国122
+      - 🇨🇳 中国124
+      - 🇨🇳 中国125
+      - 🇨🇳 中国126
+      - 🇨🇳 中国127
+      - 🇨🇳 中国128
+      - 🇨🇳 中国129
+      - 🇨🇳 中国13
+      - 🇨🇳 中国130
+      - 🇨🇳 中国131
+      - 🇨🇳 中国132
+      - 🇨🇳 中国133
+      - 🇨🇳 中国134
+      - 🇨🇳 中国135
+      - 🇨🇳 中国136
+      - 🇨🇳 中国137
+      - 🇨🇳 中国138
+      - 🇨🇳 中国139
+      - 🇨🇳 中国14
+      - 🇨🇳 中国140
+      - 🇨🇳 中国141
+      - 🇨🇳 中国142
+      - 🇨🇳 中国143
+      - 🇨🇳 中国144
+      - 🇨🇳 中国145
+      - 🇨🇳 中国146
+      - 🇨🇳 中国147
+      - 🇨🇳 中国148
+      - 🇨🇳 中国149
+      - 🇨🇳 中国15
+      - 🇨🇳 中国150
+      - 🇨🇳 中国151
+      - 🇨🇳 中国152
+      - 🇨🇳 中国153
+      - 🇨🇳 中国154
+      - 🇨🇳 中国155
+      - 🇨🇳 中国156
+      - 🇨🇳 中国157
+      - 🇨🇳 中国158
+      - 🇨🇳 中国159
+      - 🇨🇳 中国16
+      - 🇨🇳 中国160
+      - 🇨🇳 中国161
+      - 🇨🇳 中国162
+      - 🇨🇳 中国163
+      - 🇨🇳 中国164
+      - 🇨🇳 中国165
+      - 🇨🇳 中国166
+      - 🇨🇳 中国167
+      - 🇨🇳 中国168
+      - 🇨🇳 中国169
+      - 🇨🇳 中国17
+      - 🇨🇳 中国170
+      - 🇨🇳 中国171
+      - 🇨🇳 中国172
+      - 🇨🇳 中国173
+      - 🇨🇳 中国174
+      - 🇨🇳 中国175
+      - 🇨🇳 中国176
+      - 🇨🇳 中国177
+      - 🇨🇳 中国178
+      - 🇨🇳 中国179
+      - 🇨🇳 中国18
+      - 🇨🇳 中国180
+      - 🇨🇳 中国181
+      - 🇨🇳 中国182
+      - 🇨🇳 中国183
+      - 🇨🇳 中国184
+      - 🇨🇳 中国186
+      - 🇨🇳 中国187
+      - 🇨🇳 中国188
+      - 🇨🇳 中国189
+      - 🇨🇳 中国19
+      - 🇨🇳 中国190
+      - 🇨🇳 中国191
+      - 🇨🇳 中国192
+      - 🇨🇳 中国193
+      - 🇨🇳 中国194
+      - 🇨🇳 中国195
+      - 🇨🇳 中国196
+      - 🇨🇳 中国197
+      - 🇨🇳 中国198
+      - 🇨🇳 中国2
+      - 🇨🇳 中国20
+      - 🇨🇳 中国200
+      - 🇨🇳 中国201
+      - 🇨🇳 中国202
+      - 🇨🇳 中国203
+      - 🇨🇳 中国204
+      - 🇨🇳 中国205
+      - 🇨🇳 中国206
+      - 🇨🇳 中国207
+      - 🇨🇳 中国208
+      - 🇨🇳 中国209
+      - 🇨🇳 中国21
+      - 🇨🇳 中国210
+      - 🇨🇳 中国211
+      - 🇨🇳 中国212
+      - 🇨🇳 中国213
+      - 🇨🇳 中国214
+      - 🇨🇳 中国215
+      - 🇨🇳 中国216
+      - 🇨🇳 中国217
+      - 🇨🇳 中国218
+      - 🇨🇳 中国219
+      - 🇨🇳 中国22
+      - 🇨🇳 中国220
+      - 🇨🇳 中国221
+      - 🇨🇳 中国222
+      - 🇨🇳 中国223
+      - 🇨🇳 中国224
+      - 🇨🇳 中国225
+      - 🇨🇳 中国227
+      - 🇨🇳 中国228
+      - 🇨🇳 中国229
+      - 🇨🇳 中国230
+      - 🇨🇳 中国231
+      - 🇨🇳 中国232
+      - 🇨🇳 中国233
+      - 🇨🇳 中国234
+      - 🇨🇳 中国235
+      - 🇨🇳 中国236
+      - 🇨🇳 中国237
+      - 🇨🇳 中国24
+      - 🇨🇳 中国240
+      - 🇨🇳 中国241
+      - 🇨🇳 中国242
+      - 🇨🇳 中国243
+      - 🇨🇳 中国244
+      - 🇨🇳 中国245
+      - 🇨🇳 中国246
+      - 🇨🇳 中国25
+      - 🇨🇳 中国250
+      - 🇨🇳 中国252
+      - 🇨🇳 中国253
+      - 🇨🇳 中国254
+      - 🇨🇳 中国255
+      - 🇨🇳 中国257
+      - 🇨🇳 中国258
+      - 🇨🇳 中国26
+      - 🇨🇳 中国260
+      - 🇨🇳 中国264
+      - 🇨🇳 中国266
+      - 🇨🇳 中国267
+      - 🇨🇳 中国269
+      - 🇨🇳 中国27
+      - 🇨🇳 中国274
+      - 🇨🇳 中国276
+      - 🇨🇳 中国279
+      - 🇨🇳 中国28
+      - 🇨🇳 中国281
+      - 🇨🇳 中国282
+      - 🇨🇳 中国283
+      - 🇨🇳 中国284
+      - 🇨🇳 中国285
+      - 🇨🇳 中国286
+      - 🇨🇳 中国287
+      - 🇨🇳 中国289
+      - 🇨🇳 中国29
+      - 🇨🇳 中国290
+      - 🇨🇳 中国291
+      - 🇨🇳 中国292
+      - 🇨🇳 中国293
+      - 🇨🇳 中国295
+      - 🇨🇳 中国296
+      - 🇨🇳 中国297
+      - 🇨🇳 中国298
+      - 🇨🇳 中国299
+      - 🇨🇳 中国3
+      - 🇨🇳 中国30
+      - 🇨🇳 中国300
+      - 🇨🇳 中国302
+      - 🇨🇳 中国303
+      - 🇨🇳 中国304
+      - 🇨🇳 中国305
+      - 🇨🇳 中国306
+      - 🇨🇳 中国307
+      - 🇨🇳 中国309
+      - 🇨🇳 中国31
+      - 🇨🇳 中国310
+      - 🇨🇳 中国311
+      - 🇨🇳 中国312
+      - 🇨🇳 中国313
+      - 🇨🇳 中国32
+      - 🇨🇳 中国33
+      - 🇨🇳 中国34
+      - 🇨🇳 中国35
+      - 🇨🇳 中国36
+      - 🇨🇳 中国37
+      - 🇨🇳 中国38
+      - 🇨🇳 中国39
+      - 🇨🇳 中国4
+      - 🇨🇳 中国40
+      - 🇨🇳 中国41
+      - 🇨🇳 中国42
+      - 🇨🇳 中国43
+      - 🇨🇳 中国45
+      - 🇨🇳 中国46
+      - 🇨🇳 中国47
+      - 🇨🇳 中国48
+      - 🇨🇳 中国49
+      - 🇨🇳 中国5
+      - 🇨🇳 中国50
+      - 🇨🇳 中国51
+      - 🇨🇳 中国52
+      - 🇨🇳 中国53
+      - 🇨🇳 中国54
+      - 🇨🇳 中国55
+      - 🇨🇳 中国56
+      - 🇨🇳 中国57
+      - 🇨🇳 中国58
+      - 🇨🇳 中国59
+      - 🇨🇳 中国60
+      - 🇨🇳 中国61
+      - 🇨🇳 中国62
+      - 🇨🇳 中国64
+      - 🇨🇳 中国65
+      - 🇨🇳 中国66
+      - 🇨🇳 中国67
+      - 🇨🇳 中国69
+      - 🇨🇳 中国7
+      - 🇨🇳 中国70
+      - 🇨🇳 中国71
+      - 🇨🇳 中国72
+      - 🇨🇳 中国73
+      - 🇨🇳 中国74
+      - 🇨🇳 中国75
+      - 🇨🇳 中国76
+      - 🇨🇳 中国77
+      - 🇨🇳 中国78
+      - 🇨🇳 中国79
+      - 🇨🇳 中国8
+      - 🇨🇳 中国80
+      - 🇨🇳 中国81
+      - 🇨🇳 中国83
+      - 🇨🇳 中国84
+      - 🇨🇳 中国88
+      - 🇨🇳 中国9
+      - 🇨🇳 中国90
+      - 🇨🇳 中国91
+      - 🇨🇳 中国92
+      - 🇨🇳 中国93
+      - 🇨🇳 中国94
+      - 🇨🇳 中国95
+      - 🇨🇳 中国96
+      - 🇨🇳 中国97
+      - 🇨🇳 中国98
+      - 🇨🇳 中国99
+      - 🇨🇳 台湾247
+      - 🇨🇳 台湾277
+      - 🇨🇳 台湾280
+      - 🇩🇪 德国248
+      - 🇭🇰 香港106
+      - 🇭🇰 香港117
+      - 🇭🇰 香港123
+      - 🇭🇰 香港185
+      - 🇭🇰 香港199
+      - 🇭🇰 香港226
+      - 🇭🇰 香港270
+      - 🇭🇰 香港273
+      - 🇮🇷 伊朗294
+      - 🇮🇷 伊朗82
+      - 🇮🇷 伊朗87
+      - 🇷🇺 俄罗斯联邦272
+      - 🇸🇬 新加坡262
+      - 🇸🇬 新加坡265
+      - 🇸🇬 新加坡268
+      - 🇸🇬 新加坡275
+      - 🇸🇬 新加坡308
+      - 🇸🇬 新加坡6
+      - 🇺🇸 美国103
+      - 🇺🇸 美国23
+      - 🇺🇸 美国238
+      - 🇺🇸 美国239
+      - 🇺🇸 美国249
+      - 🇺🇸 美国251
+      - 🇺🇸 美国256
+      - 🇺🇸 美国259
+      - 🇺🇸 美国261
+      - 🇺🇸 美国263
+      - 🇺🇸 美国271
+      - 🇺🇸 美国278
+      - 🇺🇸 美国288
+      - 🇺🇸 美国301
+      - 🇺🇸 美国44
+      - 🇺🇸 美国63
+      - 🇺🇸 美国68
+      - 🇺🇸 美国85
+      - 🇺🇸 美国86
+      - 🇺🇸 美国89
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,DIRECT
  - DOMAIN-SUFFIX,ip6-localhost,DIRECT
